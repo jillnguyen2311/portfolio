@@ -9,8 +9,33 @@ TILES = {
     "westernstains": ("westernstains-home.webp", "Archived WesternStains Shopify homepage"),
 }
 
-FIGMA_PROJECTS = {
-    "sms360", "uni360", "elib360", "lms360", "test360", "heathelp", "whitestone"
+FIGMA_LINKS = {
+    "elib360": (
+        ('eLib360 searchable library', 'https://www.figma.com/design/eGb10BeFX4qls6Fwca80yj/th%C6%B0-vi%E1%BB%87n-s%E1%BB%91?node-id=9-3883'),
+    ),
+    "heathelp": (
+        ('HeatHelp early layout in Figma', 'https://www.figma.com/design/ayRUsUjNcsmcJcXGgo8tsE/heat-help--Copy-?node-id=0-1'),
+    ),
+    "lms360": (
+        ('LMS360 speaking-practice screen', 'https://www.figma.com/design/ID9io0n1LmPncigXLipKUO/LMS360?node-id=2896-416'),
+    ),
+    "sms360": (
+        ('School Admin notebook screen', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=20050-196271'),
+        ('SMS360 design system', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=5-40'),
+        ('Eight button variants', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3168-6764'),
+        ('Six input variants', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3700-54354'),
+        ('Popup library', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3608-83987'),
+    ),
+    "test360": (
+        ('TEST360 grading and score synchronization frame', 'https://www.figma.com/design/ID9io0n1LmPncigXLipKUO/LMS360?node-id=2543-664'),
+    ),
+    "uni360": (
+        ('UNI360 course-section form', 'https://www.figma.com/design/ujeCWIQt89pIRrDYXc1vz2/UNI360--demo-ver-?node-id=292-144105'),
+        ('UNI360 role and menu map', 'https://www.figma.com/board/ZRjdn6kL1j8CN8nZYEGONB/ROLE-MENU-UI-UNI.LMS360?node-id=0-1'),
+    ),
+    "whitestone": (
+        ('WhiteStone mockup in Figma', 'https://www.figma.com/design/IWBSDejc54MY07tMDMfrtR/Mockup-for-Week-3--Copy-?node-id=210-411'),
+    ),
 }
 
 ROLES = {

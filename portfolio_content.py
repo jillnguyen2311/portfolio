@@ -1,4 +1,5 @@
 GITHUB = 'https://github.com/jillnguyen2311/'
+CONTACT_EMAIL = 'nguyennuduyhoai75@gmail.com'
 
 PROJECTS = [{'id': 'sms360',
   'name': 'SMS360 / QLTH',

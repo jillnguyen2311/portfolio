@@ -2,14 +2,13 @@ from html import escape
 from pathlib import Path
 import json
 
-from portfolio_content import ARCHIVE, GITHUB, DESIGN, DESIGN_DETAILS, PROJECTS
-from evidence import CASES, COMPONENTS, FIGMA_PROJECTS, ROLES, TILES
+from portfolio_content import ARCHIVE, CONTACT_EMAIL, GITHUB, DESIGN, DESIGN_DETAILS, PROJECTS
+from evidence import CASES, COMPONENTS, FIGMA_LINKS, ROLES, TILES
 from work_samples import DOCS, case_extras, section, table
 
 DIST = Path(__file__).parent / "dist"
 BASE = "https://jillnguyen2311.github.io/portfolio"
 NEW_TAB = ' target="_blank" rel="noopener noreferrer"'
-ORIGINAL_SITE = "https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site"
 
 
 def shell(title, description, content, *, case=None):
@@ -196,7 +195,7 @@ def home_page():
   <section class="contact-section" id="contact" aria-labelledby="contact-title">
     <div class="wrap contact-inner">
       <div><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s connect.</h2><p>For business analysis opportunities or questions about a case study, send me an email.</p></div>
-      <div class="contact-address"><a class="button button-outline" href="{ORIGINAL_SITE}/#contact"{NEW_TAB}>Contact Jill <span aria-hidden="true">↑</span></a></div>
+      <div class="contact-address"><a class="button button-outline" href="mailto:{CONTACT_EMAIL}">Email Jill <span aria-hidden="true">→</span></a><a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a></div>
     </div>
   </section>
 </main>
@@ -234,10 +233,9 @@ def presentation(project, following):
         role_section = section("project-roles", "Who uses this product", f"<p>{escape(intro)}</p>" +
                                table(("Role", "What they do", "What the interface must support"), rows))
     figma_sources = ""
-    if project_id in FIGMA_PROJECTS:
-        original_case = f"{ORIGINAL_SITE}/projects/{project_id}.html#design-evidence"
-        reference = link("Figma references on the original portfolio", original_case)
-        figma_sources = f'<div class="figma-links">{reference}</div>'
+    if project_id in FIGMA_LINKS:
+        references = "".join(link(label, url) for label, url in FIGMA_LINKS[project_id])
+        figma_sources = f'<div class="figma-links">{references}<span>Some files require Figma access.</span></div>'
     sample = ""
     if project.get("sample"):
         heading, description, rows = project["sample"]
