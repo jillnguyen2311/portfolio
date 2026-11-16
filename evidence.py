@@ -38,14 +38,14 @@ FIGMA_LINKS = {
     ),
 }
 
-FIGMA_SHOWCASE = {
-    "sms360": "Design system and school administration",
-    "uni360": "Role-based navigation and conditional forms",
-    "whitestone": "Wireframes to high-fidelity product prototype",
-    "heathelp": "Prototype iteration and quiz feedback",
-    "elib360": "Search and resource access",
-    "lms360": "Teacher setup and learner experience",
-    "test360": "Assessment workflow and score-synchronization states",
+FIGMA_SKILLS = {
+    "sms360": ("Component variants", "Permission states", "Annotated developer handoff"),
+    "uni360": ("FigJam role mapping", "Conditional forms", "Create and edit layouts"),
+    "whitestone": ("Wireframing", "High-fidelity prototyping", "Light and dark variants"),
+    "heathelp": ("Low- and high-fidelity mockups", "Quiz feedback components", "Usability iteration"),
+    "elib360": ("Information architecture", "Dependent filter states", "Access prompts"),
+    "lms360": ("Teacher and learner flows", "Activity-specific layouts", "Role-based screens"),
+    "test360": ("Assessment workflow", "Score conversion previews", "Confirmation states"),
 }
 
 FIGMA_REVIEW = {

@@ -83,8 +83,8 @@ def table(headers, rows):
     return f'<div class="table-scroll" tabindex="0" role="region" aria-label="{escape(headers[0], quote=True)} table"><table class="artifact-table"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
 
 
-def sample_figure(asset, title, description, *, asset_path="../assets/", new_tab=False):
-    source = asset_path + asset
+def sample_figure(asset, title, description, *, new_tab=False):
+    source = f"../assets/{asset}"
     target = (
         f' target="_blank" rel="noopener noreferrer" aria-label="Open full-size image of {escape(title, quote=True)}"'
         if new_tab else ""
@@ -258,7 +258,7 @@ def design_gallery(project_id, figma_sources):
     galleries = []
     for title, entries in groups:
         figures = "".join(sample_figure(*entry, new_tab=True) for entry in entries)
-        galleries.append(f'<h3>{escape(title)}</h3><div class="gallery">{figures}</div>')
+        galleries.append(f'<h3>{escape(title)}</h3><div class="gallery figma-gallery">{figures}</div>')
     pattern_table = table(("Figma pattern", "What the source shows", "Handoff decision"), COMPONENTS[project_id])
     return section("design-evidence", "Figma designs and handoff", figma_sources + context + "".join(galleries) + pattern_table)
 
