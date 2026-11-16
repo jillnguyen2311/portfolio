@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 583" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="583" rx="0" fill="#fbf6ef" stroke="none"/>
+<rect x="0" y="0" width="1040" height="67" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M0 66L1040 66" stroke="#e6cdb7" fill="none"/>
+<text x="29" y="39" font-size="23" fill="#152f49" font-weight="700" text-anchor="start">SMS360</text>
+<text x="139" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Home</text>
+<text x="197" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Teaching schedule</text>
+<text x="345" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Gradebook</text>
+<text x="445" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Notices</text>
+<text x="525" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Manage</text>
+<text x="608" y="36" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Archived records</text>
+<path d="M608 46L713 46" stroke="#bd4c10" fill="none"/>
+<text x="745" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Statistics</text>
+<rect x="841" y="16" width="95" height="36" rx="7" fill="#fbf6ef" stroke="#debfa7"/>
+<text x="888.5" y="39.0" font-size="14" fill="#bd4c10" font-weight="700" text-anchor="middle">2024–2025</text>
+<rect x="945" y="16" width="79" height="36" rx="7" fill="#152f49" stroke="none"/>
+<text x="984.5" y="39.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Admin</text>
+<text x="49" y="112" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Archived records  /  Homeroom notebook</text>
+<rect x="48" y="137" width="176" height="42" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="136.0" y="163.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Class notebooks</text>
+<rect x="224" y="137" width="198" height="42" rx="7" fill="#fbe0cb" stroke="none"/>
+<text x="323.0" y="163.0" font-size="14" fill="#bd4c10" font-weight="700" text-anchor="middle">Leadership reviewers</text>
+<text x="48" y="217" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Select grade</text>
+<rect x="48" y="224" width="190" height="38" rx="6" fill="#ffffff" stroke="#e4c7ad"/>
+<text x="58" y="248.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Grade 6</text>
+<path d="M216 241.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="48" y="291" width="936" height="38" rx="0" fill="#fbe0cb" stroke="none"/>
+<text x="59" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">No.</text>
+<text x="118" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Class</text>
+<text x="205" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Enrollment</text>
+<text x="309" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Homeroom teacher</text>
+<text x="480" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Leadership reviewer</text>
+<text x="641" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Download template</text>
+<text x="806" y="315.0" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Open notebook</text>
+<rect x="48" y="329" width="936" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M48 329L984 329" stroke="#dce2e8" fill="none"/>
+<text x="59" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">1</text>
+<text x="118" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A1</text>
+<text x="205" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher A</text>
+<text x="480" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Reviewer A</text>
+<text x="641" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="353.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<rect x="48" y="367" width="936" height="38" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M48 367L984 367" stroke="#dce2e8" fill="none"/>
+<text x="59" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">2</text>
+<text x="118" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A2</text>
+<text x="205" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher B</text>
+<text x="480" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Reviewer B</text>
+<text x="641" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="391.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<rect x="48" y="405" width="936" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M48 405L984 405" stroke="#dce2e8" fill="none"/>
+<text x="59" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">3</text>
+<text x="118" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A3</text>
+<text x="205" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher C</text>
+<text x="480" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Unassigned</text>
+<text x="641" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="429.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<rect x="48" y="443" width="936" height="38" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M48 443L984 443" stroke="#dce2e8" fill="none"/>
+<text x="59" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">4</text>
+<text x="118" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A4</text>
+<text x="205" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher D</text>
+<text x="480" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Unassigned</text>
+<text x="641" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="467.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<rect x="48" y="481" width="936" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M48 481L984 481" stroke="#dce2e8" fill="none"/>
+<text x="59" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">5</text>
+<text x="118" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A5</text>
+<text x="205" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher E</text>
+<text x="480" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Reviewer B</text>
+<text x="641" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="505.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<rect x="48" y="519" width="936" height="38" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M48 519L984 519" stroke="#dce2e8" fill="none"/>
+<text x="59" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6</text>
+<text x="118" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">6A6</text>
+<text x="205" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="309" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Teacher F</text>
+<text x="480" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Reviewer A</text>
+<text x="641" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">↓</text>
+<text x="806" y="543.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open  ›</text>
+<path d="M48 557L984 557" stroke="#dce2e8" fill="none"/>
+</svg>

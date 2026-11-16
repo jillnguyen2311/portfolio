@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 645" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="645" rx="0" fill="#fbf4f6" stroke="none"/>
+<rect x="21" y="22" width="316" height="598" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="39" y="57" font-size="19" fill="#aa1733" font-weight="700" text-anchor="start">Create course section</text>
+<text x="39" y="81" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Set the window and constraints</text>
+<text x="38" y="99" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Course</text>
+<rect x="38" y="106" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="127.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Introduction to Business</text>
+<path d="M298 120.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="154" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Section name</text>
+<rect x="38" y="161" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="182.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Business · Section 01</text>
+<text x="38" y="209" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Lecturer</text>
+<rect x="38" y="216" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="237.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select lecturer</text>
+<path d="M298 230.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="264" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Term</text>
+<rect x="38" y="271" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="292.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Term 1  ·  2025–2026</text>
+<path d="M298 285.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="38" y="319" width="282" height="34" rx="4" fill="#122c4e" stroke="none"/>
+<text x="49" y="342" font-size="13" fill="#ffffff" font-weight="700" text-anchor="start">Enrollment setup</text>
+<text x="38" y="373" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Registration mode</text>
+<rect x="38" y="380" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="402.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Self-registration</text>
+<path d="M298 395.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38" y="433" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Opens</text>
+<rect x="38" y="440" width="129" height="35" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="462.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-08-11</text>
+<text x="187" y="433" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Closes</text>
+<rect x="187" y="440" width="133" height="35" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="197" y="462.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-08-29</text>
+<text x="38" y="492" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Capacity</text>
+<rect x="38" y="499" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="48" y="521.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">40 seats</text>
+<rect x="38" y="557" width="78" height="36" rx="7" fill="#ffffff" stroke="#ead3d6"/>
+<text x="77.0" y="580.0" font-size="14" fill="#aa1733" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="128" y="557" width="192" height="36" rx="7" fill="#aa1733" stroke="none"/>
+<text x="224.0" y="580.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Save course section</text>
+<rect x="362" y="22" width="316" height="598" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="380" y="57" font-size="19" fill="#aa1733" font-weight="700" text-anchor="start">Edit course section</text>
+<text x="380" y="81" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Review the existing setup</text>
+<text x="379" y="99" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Course</text>
+<rect x="379" y="106" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="127.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Introduction to Business</text>
+<path d="M639 120.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="379" y="154" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Section name</text>
+<rect x="379" y="161" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="182.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Business · Section 01</text>
+<text x="379" y="209" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Lecturer</text>
+<rect x="379" y="216" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="237.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select lecturer</text>
+<path d="M639 230.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="379" y="264" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Term</text>
+<rect x="379" y="271" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="292.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Term 1  ·  2025–2026</text>
+<path d="M639 285.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="379" y="319" width="282" height="34" rx="4" fill="#122c4e" stroke="none"/>
+<text x="390" y="342" font-size="13" fill="#ffffff" font-weight="700" text-anchor="start">Enrollment setup</text>
+<text x="379" y="373" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Registration mode</text>
+<rect x="379" y="380" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="402.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Self-registration</text>
+<path d="M639 395.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="379" y="433" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Opens</text>
+<rect x="379" y="440" width="129" height="35" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="462.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-08-11</text>
+<text x="528" y="433" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Closes</text>
+<rect x="528" y="440" width="133" height="35" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="538" y="462.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-08-29</text>
+<text x="379" y="492" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Capacity</text>
+<rect x="379" y="499" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="389" y="521.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">40 seats</text>
+<rect x="379" y="557" width="78" height="36" rx="7" fill="#ffffff" stroke="#ead3d6"/>
+<text x="418.0" y="580.0" font-size="14" fill="#aa1733" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="469" y="557" width="192" height="36" rx="7" fill="#aa1733" stroke="none"/>
+<text x="565.0" y="580.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Save course section</text>
+<rect x="703" y="22" width="316" height="598" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="721" y="57" font-size="19" fill="#aa1733" font-weight="700" text-anchor="start">Create course section</text>
+<text x="721" y="81" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select the cohort to assign</text>
+<text x="720" y="99" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Course</text>
+<rect x="720" y="106" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="127.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Introduction to Business</text>
+<path d="M980 120.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="720" y="154" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Section name</text>
+<rect x="720" y="161" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="182.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Business · Section 01</text>
+<text x="720" y="209" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Lecturer</text>
+<rect x="720" y="216" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="237.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select lecturer</text>
+<path d="M980 230.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="720" y="264" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Term</text>
+<rect x="720" y="271" width="282" height="33" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="292.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Term 1  ·  2025–2026</text>
+<path d="M980 285.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="720" y="319" width="282" height="34" rx="4" fill="#122c4e" stroke="none"/>
+<text x="731" y="342" font-size="13" fill="#ffffff" font-weight="700" text-anchor="start">Enrollment setup</text>
+<text x="720" y="373" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Registration mode</text>
+<rect x="720" y="380" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="402.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Cohort assignment</text>
+<path d="M980 395.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="720" y="433" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Cohort class</text>
+<rect x="720" y="440" width="282" height="35" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="462.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select cohort class</text>
+<path d="M980 455.5l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="720" y="492" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Schedule format</text>
+<rect x="720" y="499" width="282" height="34" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="730" y="521.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Fixed schedule</text>
+<path d="M980 514.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="720" y="557" width="78" height="36" rx="7" fill="#ffffff" stroke="#ead3d6"/>
+<text x="759.0" y="580.0" font-size="14" fill="#aa1733" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="810" y="557" width="192" height="36" rx="7" fill="#aa1733" stroke="none"/>
+<text x="906.0" y="580.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Save course section</text>
+</svg>

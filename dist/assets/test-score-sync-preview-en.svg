@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 455" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="455" rx="0" fill="#edf4f7" stroke="none"/>
+<rect x="19" y="24" width="1001" height="407" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="37" y="59" font-size="19" fill="#11567a" font-weight="700" text-anchor="start">Review and synchronize</text>
+<text x="37" y="83" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Preview the destination and converted values.</text>
+<text x="39" y="123" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Term</text>
+<rect x="39" y="130" width="181" height="38" rx="6" fill="#ffffff" stroke="#c6d6df"/>
+<text x="49" y="154.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Term 1</text>
+<path d="M198 147.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="234" y="123" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Score column</text>
+<rect x="234" y="130" width="181" height="38" rx="6" fill="#ffffff" stroke="#c6d6df"/>
+<text x="244" y="154.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Ongoing assessment 1</text>
+<path d="M393 147.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="429" y="123" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Subject</text>
+<rect x="429" y="130" width="181" height="38" rx="6" fill="#ffffff" stroke="#c6d6df"/>
+<text x="439" y="154.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Mathematics</text>
+<path d="M588 147.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="624" y="123" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Score selection</text>
+<rect x="624" y="130" width="181" height="38" rx="6" fill="#ffffff" stroke="#c6d6df"/>
+<text x="634" y="154.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Highest score</text>
+<path d="M783 147.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="819" y="123" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Rounding</text>
+<rect x="819" y="130" width="181" height="38" rx="6" fill="#ffffff" stroke="#c6d6df"/>
+<text x="829" y="154.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">None</text>
+<path d="M978 147.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="39" y="197" width="956" height="38" rx="0" fill="#ffe6a5" stroke="none"/>
+<text x="50" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">No.</text>
+<text x="106" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Student ID</text>
+<text x="256" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Student</text>
+<text x="440" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Class</text>
+<text x="535" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Source score</text>
+<text x="720" y="221.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Converted score</text>
+<rect x="39" y="235" width="956" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M39 235L995 235" stroke="#dce2e8" fill="none"/>
+<text x="50" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">1</text>
+<text x="106" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">STUDENT-001</text>
+<text x="256" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student A</text>
+<text x="440" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="535" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.5</text>
+<text x="720" y="259.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.5</text>
+<rect x="39" y="273" width="956" height="38" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M39 273L995 273" stroke="#dce2e8" fill="none"/>
+<text x="50" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">2</text>
+<text x="106" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">STUDENT-002</text>
+<text x="256" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student B</text>
+<text x="440" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="535" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">8.5</text>
+<text x="720" y="297.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">8.5</text>
+<rect x="39" y="311" width="956" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M39 311L995 311" stroke="#dce2e8" fill="none"/>
+<text x="50" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">3</text>
+<text x="106" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">STUDENT-003</text>
+<text x="256" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student C</text>
+<text x="440" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="535" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.0</text>
+<text x="720" y="335.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.0</text>
+<path d="M39 349L995 349" stroke="#dce2e8" fill="none"/>
+<rect x="438" y="366" width="164" height="36" rx="7" fill="#fbb83c" stroke="none"/>
+<text x="520.0" y="389.0" font-size="14" fill="#302515" font-weight="700" text-anchor="middle">Synchronize</text>
+</svg>

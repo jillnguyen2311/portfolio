@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 390" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="390" rx="0" fill="#fbf6ef" stroke="none"/>
+<text x="25" y="42" font-size="21" fill="#152f49" font-weight="700" text-anchor="start">Reusable page templates</text>
+<rect x="23" y="67" width="318" height="294" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="41" y="102" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Form and reference</text>
+<rect x="39" y="122" width="285" height="22" rx="4" fill="#f9f1e7" stroke="none"/>
+<text x="47" y="138" font-size="11" fill="#bd4c10" font-weight="700" text-anchor="start">SMS360  /  School admin</text>
+<rect x="39" y="166" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="46" y="183" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Academic year</text>
+<rect x="174" y="166" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="182" y="183" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Current context</text>
+<rect x="39" y="202" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="46" y="219" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Class</text>
+<rect x="174" y="202" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="182" y="219" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Record reference</text>
+<rect x="39" y="238" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="46" y="255" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Academic term</text>
+<rect x="174" y="238" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="182" y="255" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Form guidance</text>
+<rect x="39" y="286" width="285" height="52" rx="3" fill="#bd4c10" stroke="none"/>
+<text x="52" y="317" font-size="12" fill="#ffffff" font-weight="700" text-anchor="start">School management system</text>
+<rect x="361" y="67" width="318" height="294" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="379" y="102" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Scrollable record</text>
+<rect x="377" y="122" width="285" height="22" rx="4" fill="#f9f1e7" stroke="none"/>
+<text x="385" y="138" font-size="11" fill="#bd4c10" font-weight="700" text-anchor="start">SMS360  /  School admin</text>
+<rect x="377" y="166" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="384" y="183" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Class organization</text>
+<rect x="512" y="166" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="520" y="183" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Class information</text>
+<rect x="377" y="202" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="384" y="219" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Homeroom plans</text>
+<rect x="512" y="202" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="520" y="219" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Teacher roster</text>
+<rect x="377" y="238" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="384" y="255" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Review checkpoints</text>
+<rect x="512" y="238" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="520" y="255" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Leadership comments</text>
+<rect x="377" y="286" width="285" height="52" rx="3" fill="#bd4c10" stroke="none"/>
+<text x="390" y="317" font-size="12" fill="#ffffff" font-weight="700" text-anchor="start">School management system</text>
+<rect x="699" y="67" width="318" height="294" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="717" y="102" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">List and filters</text>
+<rect x="715" y="122" width="285" height="22" rx="4" fill="#f9f1e7" stroke="none"/>
+<text x="723" y="138" font-size="11" fill="#bd4c10" font-weight="700" text-anchor="start">SMS360  /  School admin</text>
+<rect x="715" y="166" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="722" y="183" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Grade level</text>
+<rect x="850" y="166" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="858" y="183" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Row</text>
+<rect x="715" y="202" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="722" y="219" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Class</text>
+<rect x="850" y="202" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="858" y="219" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Class</text>
+<rect x="715" y="238" width="126" height="25" rx="4" fill="#ffffff" stroke="#e7d6c7"/>
+<text x="722" y="255" font-size="11" fill="#152f49" font-weight="400" text-anchor="start">Status</text>
+<rect x="850" y="238" width="150" height="25" rx="4" fill="#f8fafc" stroke="none"/>
+<text x="858" y="255" font-size="11" fill="#506175" font-weight="400" text-anchor="start">Action</text>
+<rect x="715" y="286" width="285" height="52" rx="3" fill="#bd4c10" stroke="none"/>
+<text x="728" y="317" font-size="12" fill="#ffffff" font-weight="700" text-anchor="start">School management system</text>
+</svg>

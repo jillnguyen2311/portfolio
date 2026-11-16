@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 541" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="541" rx="0" fill="#fbf6ef" stroke="none"/>
+<rect x="0" y="0" width="1040" height="67" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M0 66L1040 66" stroke="#e6cdb7" fill="none"/>
+<text x="29" y="39" font-size="23" fill="#152f49" font-weight="700" text-anchor="start">SMS360</text>
+<text x="139" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Home</text>
+<text x="197" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Teaching schedule</text>
+<text x="345" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Gradebook</text>
+<text x="445" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Notices</text>
+<text x="525" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Manage</text>
+<text x="608" y="36" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Archived records</text>
+<path d="M608 46L713 46" stroke="#bd4c10" fill="none"/>
+<text x="745" y="36" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Statistics</text>
+<rect x="841" y="16" width="95" height="36" rx="7" fill="#fbf6ef" stroke="#debfa7"/>
+<text x="888.5" y="39.0" font-size="14" fill="#bd4c10" font-weight="700" text-anchor="middle">2024–2025</text>
+<rect x="945" y="16" width="79" height="36" rx="7" fill="#152f49" stroke="none"/>
+<text x="984.5" y="39.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Admin</text>
+<rect x="33" y="95" width="158" height="37" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="112.0" y="118.5" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Class notebooks</text>
+<rect x="191" y="95" width="168" height="37" rx="7" fill="#fbe0cb" stroke="none"/>
+<text x="275.0" y="118.5" font-size="14" fill="#bd4c10" font-weight="700" text-anchor="middle">Leadership reviewers</text>
+<text x="34" y="172" font-size="19" fill="#152f49" font-weight="700" text-anchor="start">Role-specific menu examples</text>
+<rect x="32" y="196" width="311" height="305" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="50" y="231" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">School admin</text>
+<rect x="45" y="243" width="285" height="29" rx="4" fill="#fbe0cb" stroke="none"/>
+<circle cx="60" cy="257" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="262" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Teaching schedule</text>
+<circle cx="60" cy="291" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="296" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Gradebook</text>
+<circle cx="60" cy="325" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="330" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Notices</text>
+<circle cx="60" cy="359" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="364" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Manage</text>
+<circle cx="60" cy="393" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="398" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Archived records</text>
+<circle cx="60" cy="427" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="432" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Statistics</text>
+<circle cx="60" cy="461" r="4" fill="#cf7846" stroke="none"/>
+<text x="73" y="466" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Support</text>
+<rect x="362" y="196" width="311" height="305" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="380" y="231" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Teacher</text>
+<rect x="375" y="243" width="285" height="29" rx="4" fill="#fbe0cb" stroke="none"/>
+<circle cx="390" cy="257" r="4" fill="#cf7846" stroke="none"/>
+<text x="403" y="262" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Teaching schedule</text>
+<circle cx="390" cy="291" r="4" fill="#cf7846" stroke="none"/>
+<text x="403" y="296" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Gradebook</text>
+<circle cx="390" cy="325" r="4" fill="#cf7846" stroke="none"/>
+<text x="403" y="330" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Notices</text>
+<circle cx="390" cy="359" r="4" fill="#cf7846" stroke="none"/>
+<text x="403" y="364" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Homeroom notebook</text>
+<rect x="692" y="196" width="311" height="305" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="710" y="231" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Student</text>
+<rect x="705" y="243" width="285" height="29" rx="4" fill="#fbe0cb" stroke="none"/>
+<circle cx="720" cy="257" r="4" fill="#cf7846" stroke="none"/>
+<text x="733" y="262" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Timetable</text>
+<circle cx="720" cy="291" r="4" fill="#cf7846" stroke="none"/>
+<text x="733" y="296" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Gradebook</text>
+<circle cx="720" cy="325" r="4" fill="#cf7846" stroke="none"/>
+<text x="733" y="330" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Notices</text>
+</svg>

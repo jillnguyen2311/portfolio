@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 430" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="430" rx="0" fill="#fbf6ef" stroke="none"/>
+<text x="25" y="43" font-size="22" fill="#152f49" font-weight="700" text-anchor="start">Error and recovery templates</text>
+<rect x="24" y="77" width="315" height="316" rx="14" fill="#ffffff" stroke="#f0d5bf"/>
+<circle cx="181" cy="159" r="53" fill="#fbe0cb" stroke="none"/>
+<text x="181" y="180" font-size="56" fill="#152f49" font-weight="700" text-anchor="middle">404</text>
+<text x="181" y="245" font-size="22" fill="#152f49" font-weight="700" text-anchor="middle">Page not found</text>
+<text x="181" y="277" font-size="13" fill="#506175" font-weight="400" text-anchor="middle">Return to an available part of the product.</text>
+<rect x="113" y="312" width="137" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="181.5" y="335.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Back to home</text>
+<rect x="363" y="77" width="315" height="316" rx="14" fill="#ffffff" stroke="#f0d5bf"/>
+<circle cx="520" cy="159" r="53" fill="#fbe0cb" stroke="none"/>
+<text x="520" y="180" font-size="56" fill="#152f49" font-weight="700" text-anchor="middle">403</text>
+<text x="520" y="245" font-size="22" fill="#152f49" font-weight="700" text-anchor="middle">Access denied</text>
+<text x="520" y="277" font-size="13" fill="#506175" font-weight="400" text-anchor="middle">Check your role and access to this page.</text>
+<rect x="452" y="312" width="137" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="520.5" y="335.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Back to home</text>
+<rect x="702" y="77" width="315" height="316" rx="14" fill="#ffffff" stroke="#f0d5bf"/>
+<circle cx="859" cy="159" r="53" fill="#fbe0cb" stroke="none"/>
+<text x="859" y="180" font-size="56" fill="#152f49" font-weight="700" text-anchor="middle">500</text>
+<text x="859" y="245" font-size="22" fill="#152f49" font-weight="700" text-anchor="middle">Something went wrong</text>
+<text x="859" y="277" font-size="13" fill="#506175" font-weight="400" text-anchor="middle">Retry when the service is available.</text>
+<rect x="791" y="312" width="137" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="859.5" y="335.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Try again</text>
+</svg>

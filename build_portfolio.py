@@ -10,8 +10,6 @@ DIST = Path(__file__).parent / "dist"
 BASE = "https://jillnguyen2311.github.io/portfolio"
 NEW_TAB = ' target="_blank" rel="noopener noreferrer"'
 ORIGINAL_SITE = "https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site"
-RESUME_URL = ORIGINAL_SITE + "/assets/Jill_Nguyen_Resume.pdf"
-ORIGINAL_CASES = {"sms360", "uni360", "test360", "sms360-srs", "sms360-db-api", "sms360-data-model", "sms360-api"}
 
 
 def shell(title, description, content, *, case=None):
@@ -39,7 +37,7 @@ def shell(title, description, content, *, case=None):
     <nav class="nav" aria-label="Main navigation">
       <a href="{home}#work">Projects</a><a href="{home}#about">About</a><a href="{home}#contact">Contact</a>
     </nav>
-    <a class="button button-outline" href="{RESUME_URL}"{NEW_TAB}>Resume <span class="arrow out-arrow" aria-hidden="true">↑</span></a>
+    <a class="button button-outline" href="{root}assets/Jill_Nguyen_Resume.pdf"{NEW_TAB}>Resume <span class="arrow out-arrow" aria-hidden="true">↑</span></a>
   </div>
 </header>
 {content}
@@ -148,13 +146,13 @@ def home_page():
     <div class="work-sample-home" id="ba-artifacts">
       <div><p class="eyebrow">Business analysis work samples</p><h2>Requirements, models and tests</h2><p>Open the artifacts that connect a business rule to a screen, contract or testable outcome.</p></div>
       <div class="home-artifact-links">
-        <a href="{ORIGINAL_SITE}/projects/sms360-srs.html"{NEW_TAB}>Screen-level SRS →</a>
-        <a href="{ORIGINAL_SITE}/projects/sms360-data-model.html"{NEW_TAB}>Database specification and ERD →</a>
-        <a href="{ORIGINAL_SITE}/projects/sms360-api.html"{NEW_TAB}>REST API specification →</a>
-        <a href="{ORIGINAL_SITE}/projects/sms360-db-api.html"{NEW_TAB}>SMS360 DB &amp; API workbook →</a>
-        <a href="{ORIGINAL_SITE}/projects/sms360.html#uml-sequence"{NEW_TAB}>UML sequence diagram →</a>
-        <a href="{ORIGINAL_SITE}/projects/uni360.html#registration-bpmn"{NEW_TAB}>BPMN registration flow →</a>
-        <a href="{ORIGINAL_SITE}/projects/sms360.html#traceability"{NEW_TAB}>Requirements-to-UAT matrix →</a>
+        <a href="projects/sms360-srs.html">Screen-level SRS →</a>
+        <a href="projects/sms360-data-model.html">Database specification and ERD →</a>
+        <a href="projects/sms360-api.html">REST API specification →</a>
+        <a href="projects/sms360-db-api.html">SMS360 DB &amp; API workbook →</a>
+        <a href="projects/sms360.html#uml-sequence">UML sequence diagram →</a>
+        <a href="projects/uni360.html#registration-bpmn">BPMN registration flow →</a>
+        <a href="projects/sms360.html#traceability">Requirements-to-UAT matrix →</a>
       </div>
     </div>
   </section>
@@ -417,11 +415,6 @@ def main():
     for index, project in enumerate(PROJECTS):
         following = PROJECTS[index + 1] if index + 1 < len(PROJECTS) else None
         slug = project["id"]
-        if slug in ORIGINAL_CASES:
-            (cases / f"{slug}.html").write_text(
-                external_project_page(project["name"], f"{ORIGINAL_SITE}/projects/{slug}.html", slug)
-            )
-            continue
         if project.get("direct"):
             (cases / f"{slug}.html").write_text(external_project_page(project["name"], project["direct"], slug))
             continue
@@ -429,17 +422,13 @@ def main():
         page = shell(title, project["summary"], presentation(project, following), case=project["id"])
         (cases / f'{project["id"]}.html').write_text(page)
     for slug, (title, overview, body) in DOCS.items():
-        if slug in ORIGINAL_CASES:
-            (cases / f"{slug}.html").write_text(
-                external_project_page(title, f"{ORIGINAL_SITE}/projects/{slug}.html", slug)
-            )
-            continue
         (cases / f"{slug}.html").write_text(
             shell(f"{title} | SMS360", overview, sample_page(slug, title, overview, body()), case=slug)
         )
     slug = "sms360-db-api"
-    (cases / f"{slug}.html").write_text(external_project_page(
-        "Database & API workbook", f"{ORIGINAL_SITE}/projects/{slug}.html", slug
+    (cases / f"{slug}.html").write_text(shell(
+        "Database & API workbook | SMS360", "Field-level School Admin requirements, data and API examples.",
+        spec_page(), case=slug
     ))
     for name, description, slug in DESIGN:
         content = design_page(name, description, slug)

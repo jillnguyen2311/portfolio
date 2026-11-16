@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 515" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="515" rx="0" fill="#fbf6e9" stroke="none"/>
+<rect x="22" y="29" width="474" height="451" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="40" y="64" font-size="19" fill="#11567a" font-weight="700" text-anchor="start">Create grading session</text>
+<text x="40" y="88" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Teacher grading setup</text>
+<text x="43" y="130" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Assessment</text>
+<rect x="43" y="137" width="433" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="161.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select assessment</text>
+<path d="M454 154.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="43" y="200" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Class</text>
+<rect x="43" y="207" width="433" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="231.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select class</text>
+<path d="M454 224.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="43" y="270" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Session name</text>
+<rect x="43" y="277" width="433" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="301.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Speaking practice · Term 1</text>
+<rect x="253" y="392" width="96" height="36" rx="7" fill="#ffffff" stroke="#d8e2e7"/>
+<text x="301.0" y="415.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="362" y="392" width="113" height="36" rx="7" fill="#fbb83c" stroke="none"/>
+<text x="418.5" y="415.0" font-size="14" fill="#302515" font-weight="700" text-anchor="middle">Create</text>
+<rect x="518" y="29" width="499" height="451" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="536" y="64" font-size="19" fill="#11567a" font-weight="700" text-anchor="start">Grading results</text>
+<text x="536" y="88" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Review student attempts before opening the sync preview.</text>
+<rect x="539" y="137" width="458" height="38" rx="0" fill="#ffe6a5" stroke="none"/>
+<text x="550" y="161.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Student</text>
+<text x="690" y="161.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Class</text>
+<text x="791" y="161.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Score</text>
+<text x="895" y="161.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Details</text>
+<rect x="539" y="175" width="458" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M539 175L997 175" stroke="#dce2e8" fill="none"/>
+<text x="550" y="199.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student A</text>
+<text x="690" y="199.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="791" y="199.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.5</text>
+<text x="895" y="199.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">View</text>
+<rect x="539" y="213" width="458" height="38" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M539 213L997 213" stroke="#dce2e8" fill="none"/>
+<text x="550" y="237.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student B</text>
+<text x="690" y="237.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="791" y="237.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">8.5</text>
+<text x="895" y="237.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">View</text>
+<rect x="539" y="251" width="458" height="38" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M539 251L997 251" stroke="#dce2e8" fill="none"/>
+<text x="550" y="275.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Student C</text>
+<text x="690" y="275.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="791" y="275.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">9.0</text>
+<text x="895" y="275.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">View</text>
+<path d="M539 289L997 289" stroke="#dce2e8" fill="none"/>
+<rect x="539" y="392" width="177" height="36" rx="7" fill="#fff1cd" stroke="none"/>
+<text x="627.5" y="415.0" font-size="14" fill="#11567a" font-weight="700" text-anchor="middle">Review scores</text>
+<rect x="745" y="392" width="250" height="36" rx="7" fill="#fbb83c" stroke="none"/>
+<text x="870.0" y="415.0" font-size="14" fill="#302515" font-weight="700" text-anchor="middle">Open synchronization preview</text>
+</svg>

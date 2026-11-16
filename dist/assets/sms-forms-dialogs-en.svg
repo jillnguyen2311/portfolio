@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 526" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="526" rx="0" fill="#fbf6ef" stroke="none"/>
+<rect x="24" y="24" width="478" height="473" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="42" y="59" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Grade entry and visibility</text>
+<text x="42" y="83" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Gradebook settings dialog</text>
+<text x="42" y="108" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Scope</text>
+<rect x="42" y="115" width="440" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="52" y="139.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Grade 6</text>
+<path d="M460 132.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="42" y="173" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Grade-entry window</text>
+<rect x="42" y="180" width="440" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="52" y="204.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Midyear grade entry</text>
+<path d="M460 197.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="42" y="238" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Start</text>
+<rect x="42" y="245" width="209" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="52" y="269.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-01-08</text>
+<text x="273" y="238" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">End</text>
+<rect x="273" y="245" width="209" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="283" y="269.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">2025-01-24</text>
+<rect x="42" y="306" width="440" height="49" rx="6" fill="#fff2e7" stroke="none"/>
+<text x="54" y="336" font-size="13" fill="#bd4c10" font-weight="400" text-anchor="start">Validate period, window order and overlapping settings.</text>
+<text x="42" y="389" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Entry permissions and grade visibility are separate.</text>
+<rect x="261" y="432" width="104" height="36" rx="7" fill="#ffffff" stroke="#d5dde5"/>
+<text x="313.0" y="455.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="376" y="432" width="106" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="429.0" y="455.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Save setting</text>
+<rect x="520" y="24" width="496" height="473" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="538" y="59" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Leadership comments</text>
+<text x="538" y="83" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Homeroom notebook section</text>
+<text x="538" y="108" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Reporting checkpoint</text>
+<rect x="538" y="115" width="460" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="548" y="139.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">End of year</text>
+<path d="M976 132.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="538" y="181" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Final comments</text>
+<rect x="538" y="196" width="460" height="120" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="551" y="223" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Add the school leadership review for this class.</text>
+<rect x="538" y="333" width="460" height="47" rx="6" fill="#f1f4f7" stroke="none"/>
+<text x="550" y="361" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Edit access: assigned leadership reviewer</text>
+<rect x="777" y="432" width="103" height="36" rx="7" fill="#ffffff" stroke="#d5dde5"/>
+<text x="828.5" y="455.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Cancel</text>
+<rect x="891" y="432" width="107" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="944.5" y="455.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Save comment</text>
+</svg>
