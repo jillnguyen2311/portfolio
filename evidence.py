@@ -20,8 +20,8 @@ FIGMA_LINKS = {
         ('LMS360 speaking-practice screen', 'https://www.figma.com/design/ID9io0n1LmPncigXLipKUO/LMS360?node-id=2896-416'),
     ),
     "sms360": (
-        ('School Admin notebook screen', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=20050-196271'),
         ('SMS360 design system', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=5-40'),
+        ('School Admin notebook screen', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=20050-196271'),
         ('Eight button variants', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3168-6764'),
         ('Six input variants', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3700-54354'),
         ('Popup library', 'https://www.figma.com/design/2pb4WTtP2zcNRDriHYq97M/QTTH---v2--editable-?node-id=3608-83987'),
@@ -35,6 +35,58 @@ FIGMA_LINKS = {
     ),
     "whitestone": (
         ('WhiteStone mockup in Figma', 'https://www.figma.com/design/IWBSDejc54MY07tMDMfrtR/Mockup-for-Week-3--Copy-?node-id=210-411'),
+    ),
+}
+
+FIGMA_HIGHLIGHTS = {
+    "sms360": (
+        "SMS360 · Design system",
+        "Reusable components, interaction states and role-based navigation for school administration.",
+        "sms-action-family-en.svg",
+        "Matrix of button variants by type, state and icon placement",
+    ),
+    "uni360": (
+        "UNI360 · Workflow and forms",
+        "Course-section forms that translate enrollment rules into fields and controls.",
+        "uni-course-section-variants-en.svg",
+        "Course-section form with separate create and edit layouts",
+    ),
+    "whitestone": (
+        "WhiteStone · Product prototype",
+        "Wireframes and high-fidelity screens for an oral-health results flow.",
+        "white-results.webp",
+        "WhiteStone prototype screens for onboarding, scanning and results",
+    ),
+}
+
+FIGMA_REVIEW = {
+    "sms360": (
+        "I used the shared design system to specify the homeroom notebook and reviewer assignment. "
+        "Compare the eight button variants, six input variants and permission-dependent edit states."
+    ),
+    "uni360": (
+        "Compare create and edit states in the course-section form. The registration mode determines which controls "
+        "appear. The related FigJam board maps navigation to each role."
+    ),
+    "elib360": (
+        "Follow the flow from advanced search to resource access. Curriculum, subject and textbook series are linked, "
+        "and school-only results show a sign-in prompt when opened."
+    ),
+    "lms360": (
+        "See how the teacher’s activity type changes the learner’s screen. Passage-based and topic-based practice "
+        "need different instructions and content before recording begins."
+    ),
+    "test360": (
+        "Follow a grading session to the score synchronization preview. The design exposes the destination "
+        "and the effect of score conversion before the teacher confirms the change."
+    ),
+    "whitestone": (
+        "I worked on the results experience from wireframes through implementation. Review the severity labels "
+        "and the path from a scan finding to related health resources."
+    ),
+    "heathelp": (
+        "Compare the team’s early wireframes with the high-fidelity learning and quiz flows below. The progress "
+        "indicator and feedback buttons show how the same interaction patterns carry across screens."
     ),
 }
 

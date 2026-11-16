@@ -251,7 +251,7 @@ def design_gallery(project_id, figma_sources):
         figures = "".join(sample_figure(*entry) for entry in entries)
         galleries.append(f'<h3>{escape(title)}</h3><div class="gallery">{figures}</div>')
     pattern_table = table(("Figma pattern", "What the source shows", "Handoff decision"), COMPONENTS[project_id])
-    return section("design-evidence", "Design evidence", context + figma_sources + "".join(galleries) + pattern_table)
+    return section("design-evidence", "Figma designs and handoff", figma_sources + context + "".join(galleries) + pattern_table)
 
 
 def case_extras(project_id, figma_sources=""):

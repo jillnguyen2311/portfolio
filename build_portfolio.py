@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 
 from portfolio_content import ARCHIVE, CONTACT_EMAIL, GITHUB, DESIGN, DESIGN_DETAILS, PROJECTS
-from evidence import CASES, COMPONENTS, FIGMA_LINKS, ROLES, TILES
+from evidence import CASES, COMPONENTS, FIGMA_HIGHLIGHTS, FIGMA_LINKS, FIGMA_REVIEW, ROLES, TILES
 from work_samples import DOCS, case_extras, section, table
 
 DIST = Path(__file__).parent / "dist"
@@ -49,6 +49,30 @@ def shell(title, description, content, *, case=None):
 def link(label, url):
     target = NEW_TAB if url.startswith(("https://", "http://", "//")) else ""
     return f'<a class="text-link" href="{escape(url, quote=True)}"{target}>{escape(label)} <span class="out-arrow" aria-hidden="true">↑</span></a>'
+
+
+def figma_button(label, url):
+    return (
+        f'<a class="button button-main" href="{escape(url, quote=True)}"{NEW_TAB} '
+        f'aria-label="Open in Figma: {escape(label, quote=True)}">Open in Figma '
+        '<span class="out-arrow" aria-hidden="true">↑</span></a>'
+    )
+
+
+def figma_highlights():
+    return "".join(
+        f"""<article class="figma-card">
+  <div class="figma-preview"><img src="assets/{image}" alt="{escape(alt, quote=True)}" loading="lazy"></div>
+  <div class="figma-card-body">
+    <h3>{escape(title)}</h3><p>{escape(description)}</p>
+    <div class="figma-actions">
+      {figma_button(*FIGMA_LINKS[slug][0])}
+      <a class="text-link" href="projects/{slug}.html#design-evidence" aria-label="Read the {escape(title, quote=True)} case study">Case study <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</article>"""
+        for slug, (title, description, image, alt) in FIGMA_HIGHLIGHTS.items()
+    )
 
 
 def cover(project):
@@ -110,7 +134,8 @@ def home_page():
         <h1 id="hero-title">From requirements<br>to <em>deliverables</em></h1>
         <p class="intro">I turn stakeholder needs into business rules, Figma prototypes, data models and API specifications that delivery teams can build and test.</p>
         <div class="hero-actions">
-          <a class="button button-main" href="#work">Explore Projects <span class="arrow" aria-hidden="true">↓</span></a>
+          <a class="button button-main" href="#figma-work">View Figma work <span class="arrow" aria-hidden="true">↓</span></a>
+          <a class="button button-outline" href="#work">Explore Projects <span class="arrow" aria-hidden="true">↓</span></a>
         </div>
         <p class="hero-meta"><span>Vancouver, BC</span><span>ECBA, IIBA</span><span>BBA candidate, BCIT</span></p>
       </div>
@@ -133,6 +158,15 @@ def home_page():
         <img class="art-sticker" src="assets/jill-mark.png" alt="" width="76" height="76">
         <figcaption class="art-caption">Example · Requirements traceability</figcaption>
       </figure>
+    </div>
+  </section>
+  <section class="section wrap" id="figma-work" aria-labelledby="figma-title">
+    <div class="figma-showcase">
+      <div class="section-top">
+        <h2 id="figma-title">Figma design work</h2>
+        <p>I use Figma to turn requirements into screen mockups, reusable components and prototypes that make behaviour clear for developers and testers.</p>
+      </div>
+      <div class="figma-grid">{figma_highlights()}</div>
     </div>
   </section>
   <section class="section wrap" id="work" aria-labelledby="featured-title">
@@ -206,18 +240,16 @@ def presentation(project, following):
     project_id = project["id"]
     title = escape(project["name"])
     jumps = {
-        "sms360": [("Design evidence", "design-evidence"), ("SRS, database and API", "work-samples"), ("Business rules", "business-rules"), ("UAT", "traceability"), ("Homeroom BPMN", "homeroom-flow"), ("UML", "uml-sequence"), ("ERD", "notebook-erd")],
+        "sms360": [("SRS, database and API", "work-samples"), ("Business rules", "business-rules"), ("UAT", "traceability"), ("Homeroom BPMN", "homeroom-flow"), ("UML", "uml-sequence"), ("ERD", "notebook-erd")],
         "uni360": [("BPMN", "registration-bpmn"), ("ERD", "enrollment-erd"), ("UAT", "uat")],
         "elib360": [("Search and access flow", "catalog-flow")],
         "lms360": [("Speaking-practice flow", "speaking-flow")],
         "test360": [("Score sync flow", "score-flow")],
-        "whitestone": [("Mockups and prototype", "design-evidence")],
-        "heathelp": [("Mockups and prototype", "design-evidence")],
     }.get(project_id, [])
     if project_id in ROLES:
         jumps = [("Users and roles", "project-roles")] + jumps
-    if project_id in COMPONENTS and not any(target == "design-evidence" for _, target in jumps):
-        jumps += [("Figma and design handoff", "design-evidence")]
+    if project_id in COMPONENTS:
+        jumps = [("Figma designs and handoff", "design-evidence")] + jumps
     items = "".join(f'<a href="#{target}">{label}</a>' for label, target in jumps)
     jump_nav = f'<nav class="case-jumps" aria-label="On this page">{items}</nav>' if items else ""
     sections = []
@@ -233,9 +265,18 @@ def presentation(project, following):
         role_section = section("project-roles", "Who uses this product", f"<p>{escape(intro)}</p>" +
                                table(("Role", "What they do", "What the interface must support"), rows))
     figma_sources = ""
+    figma_cta = ""
     if project_id in FIGMA_LINKS:
-        references = "".join(link(label, url) for label, url in FIGMA_LINKS[project_id])
-        figma_sources = f'<div class="figma-links">{references}<span>Some files require Figma access.</span></div>'
+        primary, *related = FIGMA_LINKS[project_id]
+        figma_cta = figma_button(*primary)
+        references = "".join(link(label, url) for label, url in related)
+        related_files = f'<div class="figma-links">{references}</div>' if references else ""
+        figma_sources = f"""<div class="figma-review">
+      <h3>What to review in Figma</h3>
+      <p>{escape(FIGMA_REVIEW[project_id])}</p>
+      <div class="figma-actions">{figma_cta}<span class="sample-note">Some files require Figma access.</span></div>
+      {related_files}
+    </div>"""
     sample = ""
     if project.get("sample"):
         heading, description, rows = project["sample"]
@@ -253,8 +294,10 @@ def presentation(project, following):
     live = project.get("live")
     live_cta = ""
     if live:
-        live_cta = (f'<a class="button button-main case-live" href="{escape(live, quote=True)}"{NEW_TAB}>'
+        live_style = "button-outline" if figma_cta else "button-main"
+        live_cta = (f'<a class="button {live_style}" href="{escape(live, quote=True)}"{NEW_TAB}>'
                     f'Open live {title} app <span class="out-arrow" aria-hidden="true">↑</span></a>')
+    case_actions = f'<div class="figma-actions case-actions">{figma_cta}{live_cta}</div>' if figma_cta or live_cta else ""
     archive_preview = ""
     if project_id == "westernstains":
         archive_preview = ('<figure class="case-art case-archive-preview"><img src="../assets/westernstains-home.webp" '
@@ -273,7 +316,7 @@ def presentation(project, following):
       <p class="eyebrow">{escape(project["type"])}</p>
       <h1 id="case-title">{title}</h1>
       <p class="intro">{escape(project["summary"])}</p>
-      {live_cta}
+      {case_actions}
     </div>
   </section>
   <article class="case-wrap case-body" aria-labelledby="case-title">
