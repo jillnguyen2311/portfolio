@@ -4,7 +4,7 @@ import json
 
 from portfolio_content import ARCHIVE, CONTACT_EMAIL, GITHUB, DESIGN, DESIGN_DETAILS, PROJECTS
 from evidence import CASES, COMPONENTS, FIGMA_LINKS, FIGMA_REVIEW, FIGMA_SKILLS, ROLES, TILES
-from work_samples import DOCS, case_extras, section, table
+from work_samples import DOCS, LIVE_PRODUCT_SCREENS, case_extras, section, table
 
 DIST = Path(__file__).parent / "dist"
 BASE = "https://jillnguyen2311.github.io/portfolio"
@@ -224,6 +224,8 @@ def presentation(project, following):
         jumps = [("Users and roles", "project-roles")] + jumps
     if project_id in COMPONENTS:
         jumps = [("Figma designs and handoff", "design-evidence")] + jumps
+    if project_id in LIVE_PRODUCT_SCREENS:
+        jumps = [("Live app screens", "live-product-screens")] + jumps
     items = "".join(f'<a href="#{target}">{label}</a>' for label, target in jumps)
     jump_nav = f'<nav class="case-jumps" aria-label="On this page">{items}</nav>' if items else ""
     sections = []

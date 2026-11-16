@@ -265,6 +265,37 @@ GALLERIES = {
 }
 
 
+LIVE_PRODUCT_SCREENS = {
+    "heathelp": (
+        "The same Electrical Fires question across two quiz attempts in the live HeatHelp app. The app grades the answer and explains it on the results screen.",
+        "Try the Electrical Fires quiz", "https://heathelp.vercel.app/Quiz1",
+        (
+            ("heathelp-live-quiz-question.webp", "Before answering", "The first question shows two choices before either answer is selected."),
+            ("heathelp-live-quiz-selected.webp", "After selecting an answer", "Choosing A reveals Next Question. Grading appears after the final question."),
+            ("heathelp-live-quiz-correct.webp", "Results · Correct answer", "The results confirm A, explain why it is correct and offer another quiz after a 3 out of 3 score."),
+            ("heathelp-live-quiz-incorrect.webp", "Results · Incorrect answer", "Choosing B on the same question shows the correction and a Review action after a 2 out of 3 score."),
+        ),
+    ),
+    "whitestone": (
+        "Captured in the live WhiteStone app. The Health Resources accordion opens a topic in place so readers can explore it alongside the other topics.",
+        "Open Health Resources", "https://whitestone-idsp.vercel.app/resources",
+        (
+            ("whitestone-live-health-resources.webp", "Health Resources · Tooth sensitivity expanded", "The expanded entry groups symptoms, treatment and details while the other topics remain collapsed."),
+        ),
+    ),
+}
+
+
+def live_product_gallery(project_id):
+    description, link_label, url, screens = LIVE_PRODUCT_SCREENS[project_id]
+    figures = "".join(sample_figure(*screen, new_tab=True) for screen in screens)
+    link = (f'<a class="text-link" href="{escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">'
+            f'{escape(link_label)} <span aria-hidden="true">↑</span></a>')
+    return section("live-product-screens", "Screens from the live app",
+                   f'<p>{escape(description)}</p><p>{link}</p>'
+                   f'<div class="full-screen-gallery live-product-gallery">{figures}</div>')
+
+
 def design_gallery(project_id, figma_sources):
     groups = GALLERIES[project_id]
     localized = project_id in {"sms360", "uni360", "elib360", "lms360", "test360"}
@@ -358,4 +389,6 @@ def case_extras(project_id, figma_sources=""):
         return gallery_html + section("score-flow", "Workflow · review and synchronize converted scores",
                                       sample_figure("test-score-flow.svg", "Grading context, score destination and preview",
                                                     "The preview lets the teacher check target term, subject and column alongside the effect of calculation and rounding before synchronization."))
+    if project_id in LIVE_PRODUCT_SCREENS:
+        return live_product_gallery(project_id) + gallery_html
     return gallery_html
