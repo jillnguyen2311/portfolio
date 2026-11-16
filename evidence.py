@@ -38,55 +38,51 @@ FIGMA_LINKS = {
     ),
 }
 
-FIGMA_HIGHLIGHTS = {
-    "sms360": (
-        "SMS360 · Design system",
-        "Reusable components, interaction states and role-based navigation for school administration.",
-        "sms-action-family-en.svg",
-        "Matrix of button variants by type, state and icon placement",
-    ),
-    "uni360": (
-        "UNI360 · Workflow and forms",
-        "Course-section forms that translate enrollment rules into fields and controls.",
-        "uni-course-section-variants-en.svg",
-        "Course-section form with separate create and edit layouts",
-    ),
-    "whitestone": (
-        "WhiteStone · Product prototype",
-        "Wireframes and high-fidelity screens for an oral-health results flow.",
-        "white-results.webp",
-        "WhiteStone prototype screens for onboarding, scanning and results",
-    ),
+FIGMA_SHOWCASE = {
+    "sms360": "Design system and school administration",
+    "uni360": "Role-based navigation and conditional forms",
+    "whitestone": "Wireframes to high-fidelity product prototype",
+    "heathelp": "Prototype iteration and quiz feedback",
+    "elib360": "Search and resource access",
+    "lms360": "Teacher setup and learner experience",
+    "test360": "Assessment workflow and score-synchronization states",
 }
 
 FIGMA_REVIEW = {
     "sms360": (
-        "I used the shared design system to specify the homeroom notebook and reviewer assignment. "
-        "Compare the eight button variants, six input variants and permission-dependent edit states."
+        "I used the shared Figma library to specify the homeroom notebook and reviewer assignment. I linked numbered "
+        "screen controls to their data, actions, permissions and acceptance criteria. The eight button and six input "
+        "variants show how reusable controls carry across the notebook, scoped assignments and read-only states."
     ),
     "uni360": (
-        "Compare create and edit states in the course-section form. The registration mode determines which controls "
-        "appear. The related FigJam board maps navigation to each role."
+        "I mapped user roles and enrollment rules to the course-section interface. The create and edit layouts show "
+        "when semester, lecturer, capacity and registration controls apply. The FigJam role map gives developers "
+        "a reference for which navigation each role should see."
     ),
     "elib360": (
-        "Follow the flow from advanced search to resource access. Curriculum, subject and textbook series are linked, "
-        "and school-only results show a sign-in prompt when opened."
+        "I defined the catalogue structure and access rules. The advanced-search design shows how curriculum changes "
+        "the subjects and textbook series available, and how education level constrains grade. The resource-card "
+        "flow shows where school-only access is checked."
     ),
     "lms360": (
-        "See how the teacher’s activity type changes the learner’s screen. Passage-based and topic-based practice "
-        "need different instructions and content before recording begins."
+        "I mapped the teacher setup and student practice flows. The Figma screens show how an activity type governs "
+        "the instructions, passage or topic the learner sees before recording. The teacher-facing list shows "
+        "how materials can be filtered, reviewed and managed."
     ),
     "test360": (
-        "Follow a grading session to the score synchronization preview. The design exposes the destination "
-        "and the effect of score conversion before the teacher confirms the change."
+        "I contributed to the design of the assessment workflow. The grading-session screens establish the "
+        "assessment and class, while the synchronization preview exposes the mapped term, subject and column. "
+        "The side-by-side results let teachers review conversion and rounding before committing."
     ),
     "whitestone": (
-        "I worked on the results experience from wireframes through implementation. Review the severity labels "
-        "and the path from a scan finding to related health resources."
+        "I used team personas and wireframes to work through the oral-health results flow. The design boards show "
+        "early alternatives, shared components, severity labels and loading and result states. I carried the result "
+        "and related resource patterns into the Next.js implementation."
     ),
     "heathelp": (
-        "Compare the team’s early wireframes with the high-fidelity learning and quiz flows below. The progress "
-        "indicator and feedback buttons show how the same interaction patterns carry across screens."
+        "I worked with the team on early wireframes and high-fidelity flows for learning and quizzes. The mockups "
+        "show topic selection, navigation, quiz progress and answer feedback. Usability sessions showed that "
+        "Learn More and Quiz looked too similar, which gave the team a specific issue to address."
     ),
 }
 

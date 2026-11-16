@@ -83,9 +83,14 @@ def table(headers, rows):
     return f'<div class="table-scroll" tabindex="0" role="region" aria-label="{escape(headers[0], quote=True)} table"><table class="artifact-table"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
 
 
-def sample_figure(asset, title, description):
-    return (f'<figure class="artifact-figure"><a href="../assets/{asset}">'
-            f'<img src="../assets/{asset}" alt="{escape(title, quote=True)}" loading="lazy"></a>'
+def sample_figure(asset, title, description, *, asset_path="../assets/", new_tab=False):
+    source = asset_path + asset
+    target = (
+        f' target="_blank" rel="noopener noreferrer" aria-label="Open full-size image of {escape(title, quote=True)}"'
+        if new_tab else ""
+    )
+    return (f'<figure class="artifact-figure"><a href="{source}"{target}>'
+            f'<img src="{source}" alt="{escape(title, quote=True)}" loading="lazy"></a>'
             f'<figcaption><strong>{escape(title)}</strong><p>{escape(description)}</p></figcaption></figure>')
 
 
@@ -224,6 +229,10 @@ GALLERIES = {
             ("white-results.webp", "High-fidelity prototype", "Two versions of the complete path from onboarding to scanning and results."),
             ("white-result-states.webp", "Loading, result and detail states", "Three adjacent states show how the product moves from processing to the result summary and supporting guidance."),
         ]),
+        ("Results screen close-ups", [
+            ("white-figma-results-summary.webp", "Results summary · Figma capture", "Severity labels and grouped findings help users understand the scan before opening a detail."),
+            ("white-figma-results-detail.webp", "Expanded finding · Figma capture", "Opening a finding highlights the corresponding area and reveals guidance with a link to read more."),
+        ]),
     ],
     "heathelp": [
         ("Wireframes, components and implementation", [
@@ -248,7 +257,7 @@ def design_gallery(project_id, figma_sources):
     )
     galleries = []
     for title, entries in groups:
-        figures = "".join(sample_figure(*entry) for entry in entries)
+        figures = "".join(sample_figure(*entry, new_tab=True) for entry in entries)
         galleries.append(f'<h3>{escape(title)}</h3><div class="gallery">{figures}</div>')
     pattern_table = table(("Figma pattern", "What the source shows", "Handoff decision"), COMPONENTS[project_id])
     return section("design-evidence", "Figma designs and handoff", figma_sources + context + "".join(galleries) + pattern_table)

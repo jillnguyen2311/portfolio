@@ -3,8 +3,8 @@ from pathlib import Path
 import json
 
 from portfolio_content import ARCHIVE, CONTACT_EMAIL, GITHUB, DESIGN, DESIGN_DETAILS, PROJECTS
-from evidence import CASES, COMPONENTS, FIGMA_HIGHLIGHTS, FIGMA_LINKS, FIGMA_REVIEW, ROLES, TILES
-from work_samples import DOCS, case_extras, section, table
+from evidence import CASES, COMPONENTS, FIGMA_LINKS, FIGMA_REVIEW, FIGMA_SHOWCASE, ROLES, TILES
+from work_samples import DOCS, GALLERIES, case_extras, sample_figure, section, table
 
 DIST = Path(__file__).parent / "dist"
 BASE = "https://jillnguyen2311.github.io/portfolio"
@@ -59,20 +59,37 @@ def figma_button(label, url):
     )
 
 
-def figma_highlights():
-    return "".join(
-        f"""<article class="figma-card">
-  <div class="figma-preview"><img src="assets/{image}" alt="{escape(alt, quote=True)}" loading="lazy"></div>
-  <div class="figma-card-body">
-    <h3>{escape(title)}</h3><p>{escape(description)}</p>
-    <div class="figma-actions">
-      {figma_button(*FIGMA_LINKS[slug][0])}
-      <a class="text-link" href="projects/{slug}.html#design-evidence" aria-label="Read the {escape(title, quote=True)} case study">Case study <span aria-hidden="true">→</span></a>
+def figma_showcase():
+    projects = {project["id"]: project for project in PROJECTS}
+    navigation = []
+    showcases = []
+    for slug, focus in FIGMA_SHOWCASE.items():
+        project = projects[slug]
+        title = escape(project["name"])
+        navigation.append(f'<a href="#figma-{slug}">{title}</a>')
+        groups = []
+        for heading, entries in GALLERIES[slug]:
+            figures = "".join(sample_figure(*entry, asset_path="assets/", new_tab=True) for entry in entries)
+            groups.append(f'<h4>{escape(heading)}</h4><div class="gallery figma-gallery">{figures}</div>')
+        showcases.append(f"""<article class="figma-project" id="figma-{slug}" aria-labelledby="figma-{slug}-title">
+  <div class="figma-project-header">
+    <div>
+      <h3 id="figma-{slug}-title">{title}</h3>
+      <p class="figma-focus">{escape(focus)}</p>
+    </div>
+    <div class="figma-contribution">
+      <p class="figma-role">{escape(project["role"])}</p>
+      <p>{escape(FIGMA_REVIEW[slug])}</p>
+      <div class="figma-actions">
+        {figma_button(*FIGMA_LINKS[slug][0])}
+        <a class="text-link" href="projects/{slug}.html#design-evidence" aria-label="Read the {escape(project['name'], quote=True)} case study">Case study <span aria-hidden="true">→</span></a>
+      </div>
     </div>
   </div>
-</article>"""
-        for slug, (title, description, image, alt) in FIGMA_HIGHLIGHTS.items()
-    )
+  {"".join(groups)}
+</article>""")
+    nav = f'<nav class="figma-nav" aria-label="Figma projects">{"".join(navigation)}</nav>'
+    return nav + "".join(showcases)
 
 
 def cover(project):
@@ -164,9 +181,10 @@ def home_page():
     <div class="figma-showcase">
       <div class="section-top">
         <h2 id="figma-title">Figma design work</h2>
-        <p>I use Figma to turn requirements into screen mockups, reusable components and prototypes that make behaviour clear for developers and testers.</p>
+        <p>Explore the component variants, wireframes and prototypes behind seven projects. Select any image to inspect it at full size.</p>
       </div>
-      <div class="figma-grid">{figma_highlights()}</div>
+      <p class="figma-source-note">Includes original Figma captures, team design exports and English adaptations with fictional records.</p>
+      {figma_showcase()}
     </div>
   </section>
   <section class="section wrap" id="work" aria-labelledby="featured-title">
