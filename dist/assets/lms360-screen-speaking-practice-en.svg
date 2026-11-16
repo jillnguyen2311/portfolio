@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 750" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1240" height="750" rx="0" fill="#eef0f6" stroke="none"/>
+<rect x="18" y="18" width="1204" height="714" rx="13" fill="#f5f6fa" stroke="#dfe3ed"/>
+<rect x="18" y="18" width="1204" height="66" rx="10" fill="#0c4872" stroke="none"/>
+<rect x="39" y="35" width="32" height="32" rx="7" fill="#247bac" stroke="none"/>
+<text x="55" y="57" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">L</text>
+<text x="82" y="58" font-size="22" fill="#ffffff" font-weight="700" text-anchor="start">LMS360</text>
+<text x="236" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Learning</text>
+<text x="362" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Resources</text>
+<text x="488" y="57" font-size="14" fill="#ffffff" font-weight="700" text-anchor="start">Activities</text>
+<path d="M488 70L561 70" stroke="#9bd9ff" fill="none"/>
+<text x="614" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Results</text>
+<rect x="1007" y="34" width="182" height="35" rx="7" fill="#f1f3f8" stroke="none"/>
+<text x="1098.0" y="56.5" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Learner account</text>
+<text x="48" y="119" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Learning / Speaking practice</text>
+<text x="48" y="158" font-size="29" fill="#152f49" font-weight="700" text-anchor="start">Speaking practice</text>
+<text x="48" y="186" font-size="14" fill="#506175" font-weight="400" text-anchor="start">Choose an activity type and review its instructions before recording.</text>
+<rect x="48" y="218" width="1138" height="60" rx="8" fill="#eaf4fb" stroke="none"/>
+<text x="67" y="256" font-size="16" fill="#0c4872" font-weight="700" text-anchor="start">How it works</text>
+<text x="208" y="256" font-size="14" fill="#0c4872" font-weight="400" text-anchor="start">Choose a mode, review the prompt and record your response.</text>
+<rect x="48" y="301" width="560" height="349" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="66" y="336" font-size="19" fill="#0c4872" font-weight="700" text-anchor="start">Read a passage</text>
+<text x="66" y="360" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Practice reading provided text aloud.</text>
+<rect x="68" y="404" width="520" height="110" rx="10" fill="#f0f7fc" stroke="none"/>
+<text x="86" y="440" font-size="14" fill="#0c4872" font-weight="700" text-anchor="start">Example passage</text>
+<text x="86" y="471" font-size="17" fill="#152f49" font-weight="400" text-anchor="start">Our school library opens at eight.</text>
+<rect x="68" y="567" width="157" height="36" rx="7" fill="#0c4872" stroke="none"/>
+<text x="146.5" y="590.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Choose passage</text>
+<rect x="626" y="301" width="560" height="349" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="644" y="336" font-size="19" fill="#0c4872" font-weight="700" text-anchor="start">Speak about a topic</text>
+<text x="644" y="360" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Plan and record an original response.</text>
+<rect x="646" y="404" width="520" height="110" rx="10" fill="#f0f7fc" stroke="none"/>
+<text x="664" y="440" font-size="14" fill="#0c4872" font-weight="700" text-anchor="start">Example topic</text>
+<text x="664" y="471" font-size="17" fill="#152f49" font-weight="400" text-anchor="start">Describe a place you like to study.</text>
+<rect x="646" y="567" width="157" height="36" rx="7" fill="#0c4872" stroke="none"/>
+<text x="724.5" y="590.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Choose topic</text>
+</svg>

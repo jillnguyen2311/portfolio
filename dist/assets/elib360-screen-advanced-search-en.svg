@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 750" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1240" height="750" rx="0" fill="#eef0f6" stroke="none"/>
+<rect x="18" y="18" width="1204" height="714" rx="13" fill="#f5f6fa" stroke="#dfe3ed"/>
+<rect x="18" y="18" width="1204" height="66" rx="10" fill="#ffffff" stroke="none"/>
+<rect x="39" y="35" width="32" height="32" rx="7" fill="#5635ba" stroke="none"/>
+<text x="55" y="57" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">E</text>
+<text x="82" y="58" font-size="22" fill="#152f49" font-weight="700" text-anchor="start">eLib360</text>
+<text x="236" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Home</text>
+<text x="386" y="57" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Library</text>
+<path d="M386 70L438 70" stroke="#5635ba" fill="none"/>
+<text x="536" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Interactive learning</text>
+<text x="686" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Simulations</text>
+<rect x="1007" y="34" width="182" height="35" rx="7" fill="#f1f3f8" stroke="none"/>
+<text x="1098.0" y="56.5" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">English · EN</text>
+<rect x="48" y="113" width="1138" height="152" rx="12" fill="#eee7ff" stroke="none"/>
+<text x="70" y="153" font-size="27" fill="#5635ba" font-weight="700" text-anchor="start">Digital library</text>
+<text x="70" y="181" font-size="15" fill="#152f49" font-weight="400" text-anchor="start">Discover books, teaching materials and interactive learning resources.</text>
+<text x="70" y="200" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Search library</text>
+<rect x="70" y="207" width="582" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="80" y="231.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Search titles, authors or keywords</text>
+<rect x="664" y="207" width="108" height="38" rx="7" fill="#5635ba" stroke="none"/>
+<text x="718.0" y="231.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Search</text>
+<rect x="784" y="207" width="165" height="38" rx="7" fill="#ffffff" stroke="#d7cbf5"/>
+<text x="866.5" y="231.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Advanced search</text>
+<rect x="48" y="287" width="234" height="395" rx="10" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="66" y="320" font-size="17" fill="#152f49" font-weight="700" text-anchor="start">Browse by type</text>
+<rect x="62" y="334" width="206" height="34" rx="5" fill="#f1e9ff" stroke="none"/>
+<text x="74" y="358" font-size="14" fill="#5635ba" font-weight="700" text-anchor="start">All resources</text>
+<text x="74" y="400" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Textbooks</text>
+<text x="74" y="442" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Teaching materials</text>
+<text x="74" y="484" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Videos</text>
+<text x="74" y="526" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Interactive resources</text>
+<text x="307" y="326" font-size="22" fill="#152f49" font-weight="700" text-anchor="start">Library results</text>
+<text x="989" y="313" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sort by</text>
+<rect x="989" y="320" width="197" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="999" y="344.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Newest</text>
+<path d="M1164 337.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="307" y="379" width="279" height="288" rx="9" fill="#ffffff" stroke="#dfe3ed"/>
+<rect x="319" y="390" width="255" height="113" rx="7" fill="#d8e8ff" stroke="none"/>
+<rect x="416" y="405" width="61" height="82" rx="5" fill="#254e79" stroke="none"/>
+<path d="M426 420L464 420" stroke="#ffffff" fill="none"/>
+<path d="M426 431L464 431" stroke="#ffffff" fill="none"/>
+<text x="322" y="531" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Workbook</text>
+<text x="322" y="555" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Study skills workbook</text>
+<rect x="322" y="567" width="92" height="26" rx="7" fill="#f4effe" stroke="none"/>
+<text x="368.0" y="585.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Public</text>
+<rect x="322" y="615" width="151" height="36" rx="7" fill="#5635ba" stroke="none"/>
+<text x="397.5" y="638.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Open resource</text>
+<rect x="605" y="379" width="279" height="288" rx="9" fill="#ffffff" stroke="#dfe3ed"/>
+<rect x="617" y="390" width="255" height="113" rx="7" fill="#efe4ff" stroke="none"/>
+<rect x="714" y="405" width="61" height="82" rx="5" fill="#5635ba" stroke="none"/>
+<path d="M724 420L762 420" stroke="#ffffff" fill="none"/>
+<path d="M724 431L762 431" stroke="#ffffff" fill="none"/>
+<text x="620" y="531" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Learning material</text>
+<text x="620" y="555" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Class reading pack</text>
+<rect x="620" y="567" width="92" height="26" rx="7" fill="#f4effe" stroke="none"/>
+<text x="666.0" y="585.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">School only</text>
+<rect x="620" y="615" width="151" height="36" rx="7" fill="#5635ba" stroke="none"/>
+<text x="695.5" y="638.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Open resource</text>
+<rect x="903" y="379" width="279" height="288" rx="9" fill="#ffffff" stroke="#dfe3ed"/>
+<rect x="915" y="390" width="255" height="113" rx="7" fill="#dceee6" stroke="none"/>
+<rect x="1012" y="405" width="61" height="82" rx="5" fill="#1d6149" stroke="none"/>
+<path d="M1022 420L1060 420" stroke="#ffffff" fill="none"/>
+<path d="M1022 431L1060 431" stroke="#ffffff" fill="none"/>
+<text x="918" y="531" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Interactive resource</text>
+<text x="918" y="555" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Introduction to ratios</text>
+<rect x="918" y="567" width="92" height="26" rx="7" fill="#f4effe" stroke="none"/>
+<text x="964.0" y="585.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Public</text>
+<rect x="918" y="615" width="151" height="36" rx="7" fill="#5635ba" stroke="none"/>
+<text x="993.5" y="638.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Open resource</text>
+<rect x="18" y="84" width="1204" height="648" fill="#161a2f" fill-opacity=".34"/>
+<rect x="292" y="130" width="656" height="491" rx="12" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="913" y="170" font-size="26" fill="#506175" font-weight="400" text-anchor="start">×</text>
+<text x="325" y="175" font-size="25" fill="#152f49" font-weight="700" text-anchor="start">Advanced search</text>
+<text x="325" y="202" font-size="14" fill="#506175" font-weight="400" text-anchor="start">Use the curriculum and education level to narrow your results.</text>
+<text x="325" y="242" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Curriculum</text>
+<rect x="325" y="249" width="275" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="335" y="273.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">New curriculum</text>
+<path d="M578 266.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="624" y="242" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Education level</text>
+<rect x="624" y="249" width="289" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="634" y="273.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Lower secondary</text>
+<path d="M891 266.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="325" y="316" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Subject</text>
+<rect x="325" y="323" width="275" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="335" y="347.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Mathematics</text>
+<path d="M578 340.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="624" y="316" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Grade</text>
+<rect x="624" y="323" width="289" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="634" y="347.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Grade 6</text>
+<path d="M891 340.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="325" y="390" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Textbook series</text>
+<rect x="325" y="397" width="588" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="335" y="421.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All applicable series</text>
+<path d="M891 414.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="325" y="453" width="588" height="44" rx="7" fill="#f3edff" stroke="none"/>
+<text x="338" y="480" font-size="13" fill="#5635ba" font-weight="400" text-anchor="start">Changing the curriculum can reset the subject and series.</text>
+<rect x="676" y="548" width="99" height="36" rx="7" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="725.5" y="571.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Reset</text>
+<rect x="786" y="548" width="127" height="36" rx="7" fill="#5635ba" stroke="none"/>
+<text x="849.5" y="571.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Apply filters</text>
+</svg>

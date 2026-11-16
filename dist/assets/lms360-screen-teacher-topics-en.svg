@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 750" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1240" height="750" rx="0" fill="#eef0f6" stroke="none"/>
+<rect x="18" y="18" width="1204" height="714" rx="13" fill="#f5f6fa" stroke="#dfe3ed"/>
+<rect x="18" y="18" width="1204" height="66" rx="10" fill="#0c4872" stroke="none"/>
+<rect x="39" y="35" width="32" height="32" rx="7" fill="#247bac" stroke="none"/>
+<text x="55" y="57" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">L</text>
+<text x="82" y="58" font-size="22" fill="#ffffff" font-weight="700" text-anchor="start">LMS360</text>
+<text x="236" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Learning</text>
+<text x="362" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Resources</text>
+<text x="488" y="57" font-size="14" fill="#ffffff" font-weight="700" text-anchor="start">Activities</text>
+<path d="M488 70L561 70" stroke="#9bd9ff" fill="none"/>
+<text x="614" y="57" font-size="14" fill="#ffffff" font-weight="400" text-anchor="start">Results</text>
+<rect x="1007" y="34" width="182" height="35" rx="7" fill="#f1f3f8" stroke="none"/>
+<text x="1098.0" y="56.5" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Teacher account</text>
+<rect x="18" y="84" width="213" height="648" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M230 84L230 732" stroke="#dfe3ed" fill="none"/>
+<text x="40" y="126" font-size="12" fill="#506175" font-weight="700" text-anchor="start">TEACHER WORKSPACE</text>
+<circle cx="49" cy="160" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="165" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Dashboard</text>
+<rect x="32" y="187" width="185" height="34" rx="6" fill="#eaf4fb" stroke="none"/>
+<circle cx="49" cy="206" r="4" fill="#0c4872" stroke="none"/>
+<text x="61" y="211" font-size="14" fill="#0c4872" font-weight="700" text-anchor="start">Learning topics</text>
+<circle cx="49" cy="252" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="257" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">My materials</text>
+<circle cx="49" cy="298" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="303" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Review results</text>
+<circle cx="49" cy="344" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="349" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Online classes</text>
+<text x="257" y="119" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Teacher workspace / Materials</text>
+<text x="257" y="158" font-size="29" fill="#152f49" font-weight="700" text-anchor="start">Learning topics</text>
+<text x="257" y="186" font-size="14" fill="#506175" font-weight="400" text-anchor="start">Filter topics, add materials and review the items ready for use.</text>
+<rect x="1004" y="134" width="182" height="36" rx="7" fill="#0c4872" stroke="none"/>
+<text x="1095.0" y="157.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">+ Create learning topic</text>
+<rect x="257" y="214" width="930" height="473" rx="10" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="275" y="254" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Grade</text>
+<rect x="275" y="261" width="184" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="285" y="285.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All grades</text>
+<path d="M437 278.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="476" y="254" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Subject</text>
+<rect x="476" y="261" width="200" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="486" y="285.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All subjects</text>
+<path d="M654 278.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="693" y="254" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Search</text>
+<rect x="693" y="261" width="475" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="703" y="285.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Search learning topics</text>
+<rect x="275" y="327" width="893" height="50" rx="0" fill="#e1f0fa" stroke="none"/>
+<text x="286" y="357.0" font-size="13" fill="#0c4872" font-weight="700" text-anchor="start">Learning topic</text>
+<text x="525" y="357.0" font-size="13" fill="#0c4872" font-weight="700" text-anchor="start">Materials</text>
+<text x="718" y="357.0" font-size="13" fill="#0c4872" font-weight="700" text-anchor="start">Actions</text>
+<text x="857" y="357.0" font-size="13" fill="#0c4872" font-weight="700" text-anchor="start">Created</text>
+<text x="1032" y="357.0" font-size="13" fill="#0c4872" font-weight="700" text-anchor="start">Approved</text>
+<rect x="275" y="377" width="893" height="50" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 377L1168 377" stroke="#dce2e8" fill="none"/>
+<text x="286" y="407.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Grade 4 Mathematics</text>
+<text x="525" y="407.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Add material</text>
+<text x="718" y="407.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Edit · View</text>
+<text x="857" y="407.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">14 Oct 2025</text>
+<text x="1032" y="407.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">0 of 5</text>
+<rect x="275" y="427" width="893" height="50" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 427L1168 427" stroke="#dce2e8" fill="none"/>
+<text x="286" y="457.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Grade 9 Literature</text>
+<text x="525" y="457.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Add material</text>
+<text x="718" y="457.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Edit · View</text>
+<text x="857" y="457.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">13 Sep 2025</text>
+<text x="1032" y="457.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">0 of 5</text>
+<rect x="275" y="477" width="893" height="50" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 477L1168 477" stroke="#dce2e8" fill="none"/>
+<text x="286" y="507.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Vietnamese Studies</text>
+<text x="525" y="507.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Add material</text>
+<text x="718" y="507.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Edit · View</text>
+<text x="857" y="507.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">20 Aug 2025</text>
+<text x="1032" y="507.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">2 of 3</text>
+<rect x="275" y="527" width="893" height="50" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 527L1168 527" stroke="#dce2e8" fill="none"/>
+<text x="286" y="557.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Speaking practice</text>
+<text x="525" y="557.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Add material</text>
+<text x="718" y="557.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Edit · View</text>
+<text x="857" y="557.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">07 Jul 2025</text>
+<text x="1032" y="557.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">1 of 3</text>
+<path d="M275 577L1168 577" stroke="#dce2e8" fill="none"/>
+<text x="275" y="640" font-size="13" fill="#506175" font-weight="400" text-anchor="start">4 learning topics</text>
+<rect x="993" y="619" width="79" height="32" rx="7" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="1032.5" y="640.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Previous</text>
+<rect x="1077" y="619" width="91" height="32" rx="7" fill="#eeebf8" stroke="none"/>
+<text x="1122.5" y="640.0" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Page 1 of 1</text>
+</svg>

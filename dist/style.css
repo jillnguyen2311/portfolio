@@ -248,6 +248,14 @@ h1 em,h2 em{color:var(--violet);font-style:normal}
 .example-status{width:max-content;max-width:100%;border-radius:5px;background:#fae9bd;padding:2px 6px;color:#543900;font-weight:700}
 .figma-subnav{display:flex;flex-wrap:wrap;gap:6px 16px;margin:14px 0;font-size:13px;font-weight:750;color:#502ba0}
 .figma-subnav a{text-decoration:underline;text-decoration-color:#c7b2e6;text-underline-offset:3px}
+.figma-full-screens{margin:20px 0 24px}
+.figma-full-screens>p{margin:5px 0 12px;font-size:14px;color:var(--body)}
+.full-screen-gallery{display:grid;gap:15px}
+.full-screen-gallery .artifact-figure{margin:0}
+.full-screen-gallery a{background:#eef0f6}
+.full-screen-gallery a:focus-visible{outline-offset:-4px}
+.full-screen-gallery img{display:block;width:100%;max-height:680px;object-fit:contain;background:transparent}
+.full-screen-gallery figcaption{border-top:1px solid #eee5f8}
 .figma-handoff{margin:22px 0}
 .figma-handoff>p{margin:5px 0 0;font-size:14px}
 .figma-handoff .figma-gallery .artifact-figure img{aspect-ratio:2.15}

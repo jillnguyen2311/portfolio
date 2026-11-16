@@ -2,6 +2,7 @@ from html import escape
 from evidence import COMPONENTS
 from figma_examples import component_example, design_system_lab
 from figma_handoff import HANDOFF
+from figma_screens import SCREENS
 
 SRS = [
     ("HR-01", "Class notebook identity", "On first authorized access, open or create one notebook for the class and academic year using the school-level template.", "Open the same class in Term 1 and Term 2. The notebook ID is unchanged."),
@@ -272,15 +273,28 @@ def design_gallery(project_id, figma_sources):
         'Select an image to inspect it at full size.</p>'
         if localized else ""
     )
+    full_screens = SCREENS[project_id]
+    featured_assets = {asset for asset, _, _ in full_screens}
+    screen_images = "".join(sample_figure(*entry, new_tab=True) for entry in full_screens)
+    screen_note = (
+        "English screen reconstructions based on the Figma layouts and project requirements. Records are illustrative."
+        if localized else "Full-screen views from the project’s English design exports and implementation captures."
+    )
+    screen_section = f"""<section id="figma-full-screens" class="figma-full-screens">
+      <h3>Full-screen designs</h3>
+      <p>{escape(screen_note)} Select a screen to inspect it at full size.</p>
+      <div class="full-screen-gallery">{screen_images}</div>
+    </section>"""
     galleries = []
     for title, entries in groups:
-        figures = "".join(sample_figure(*entry, new_tab=True) for entry in entries)
-        galleries.append(f'<h3>{escape(title)}</h3><div class="gallery figma-gallery">{figures}</div>')
+        figures = "".join(sample_figure(*entry, new_tab=True) for entry in entries if entry[0] not in featured_assets)
+        if figures:
+            galleries.append(f'<h3>{escape(title)}</h3><div class="gallery figma-gallery">{figures}</div>')
     pattern_table = table(("Figma pattern", "What the source shows", "Handoff decision"), COMPONENTS[project_id])
     lab = design_system_lab() if project_id == "sms360" else ""
     lab_link = '<a href="#design-system-lab">Design system lab</a>' if lab else ""
     navigation = f"""<nav class="figma-subnav" aria-label="Figma evidence">
-      {lab_link}<a href="#figma-examples">Interactive states</a>
+      <a href="#figma-full-screens">Full-screen designs</a>{lab_link}<a href="#figma-examples">Interactive states</a>
       <a href="#figma-handoff">Implementation boards</a><a href="#figma-screen-library">Screen library</a>
     </nav>"""
     boards = "".join(
@@ -294,7 +308,7 @@ def design_gallery(project_id, figma_sources):
     </section>"""
     library = f'<div id="figma-screen-library">{context}{"".join(galleries)}{pattern_table}</div>'
     return section("design-evidence", "Figma designs and handoff",
-                   figma_sources + navigation + lab + component_example(project_id) + handoff + library)
+                   figma_sources + navigation + screen_section + lab + component_example(project_id) + handoff + library)
 
 
 def case_extras(project_id, figma_sources=""):

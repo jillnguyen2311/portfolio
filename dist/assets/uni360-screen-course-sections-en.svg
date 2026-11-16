@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 750" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1240" height="750" rx="0" fill="#eef0f6" stroke="none"/>
+<rect x="18" y="18" width="1204" height="714" rx="13" fill="#f5f6fa" stroke="#dfe3ed"/>
+<rect x="18" y="18" width="1204" height="66" rx="10" fill="#ffffff" stroke="none"/>
+<rect x="39" y="35" width="32" height="32" rx="7" fill="#aa1733" stroke="none"/>
+<text x="55" y="57" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">U</text>
+<text x="82" y="58" font-size="22" fill="#152f49" font-weight="700" text-anchor="start">UNI360</text>
+<text x="236" y="57" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Academic operations</text>
+<path d="M236 70L372 70" stroke="#aa1733" fill="none"/>
+<text x="406" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Teaching</text>
+<text x="576" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Learning resources</text>
+<rect x="1007" y="34" width="182" height="35" rx="7" fill="#f1f3f8" stroke="none"/>
+<text x="1098.0" y="56.5" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Academic affairs</text>
+<rect x="18" y="84" width="213" height="648" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M230 84L230 732" stroke="#dfe3ed" fill="none"/>
+<text x="40" y="126" font-size="12" fill="#506175" font-weight="700" text-anchor="start">ACADEMIC OPERATIONS</text>
+<circle cx="49" cy="160" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="165" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Academic terms</text>
+<circle cx="49" cy="206" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="211" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Programs</text>
+<circle cx="49" cy="252" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="257" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Cohorts</text>
+<rect x="32" y="279" width="185" height="34" rx="6" fill="#fbe9ed" stroke="none"/>
+<circle cx="49" cy="298" r="4" fill="#aa1733" stroke="none"/>
+<text x="61" y="303" font-size="14" fill="#aa1733" font-weight="700" text-anchor="start">Course sections</text>
+<circle cx="49" cy="344" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="349" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Lecturer assignments</text>
+<text x="257" y="119" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Academic operations / Course sections</text>
+<text x="257" y="158" font-size="29" fill="#152f49" font-weight="700" text-anchor="start">Course sections</text>
+<text x="257" y="186" font-size="14" fill="#506175" font-weight="400" text-anchor="start">Manage term offerings, lecturers, capacity and enrollment settings.</text>
+<rect x="1000" y="134" width="187" height="36" rx="7" fill="#aa1733" stroke="none"/>
+<text x="1093.5" y="157.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">+ Create course section</text>
+<rect x="257" y="214" width="930" height="460" rx="10" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="275" y="250" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Academic term</text>
+<rect x="275" y="257" width="243" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="285" y="281.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Semester 1 · 2025–2026</text>
+<path d="M496 274.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="538" y="250" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Enrollment mode</text>
+<rect x="538" y="257" width="252" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="548" y="281.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All enrollment modes</text>
+<path d="M768 274.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="809" y="250" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Search</text>
+<rect x="809" y="257" width="359" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="819" y="281.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Search course sections</text>
+<rect x="275" y="320" width="893" height="51" rx="0" fill="#f9e8ef" stroke="none"/>
+<text x="286" y="350.5" font-size="13" fill="#aa1733" font-weight="700" text-anchor="start">Course section</text>
+<text x="530" y="350.5" font-size="13" fill="#aa1733" font-weight="700" text-anchor="start">Lecturer</text>
+<text x="685" y="350.5" font-size="13" fill="#aa1733" font-weight="700" text-anchor="start">Capacity</text>
+<text x="786" y="350.5" font-size="13" fill="#aa1733" font-weight="700" text-anchor="start">Enrollment mode</text>
+<text x="992" y="350.5" font-size="13" fill="#aa1733" font-weight="700" text-anchor="start">Status</text>
+<rect x="275" y="371" width="893" height="51" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 371L1168 371" stroke="#dce2e8" fill="none"/>
+<text x="286" y="401.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">BUS101 · Section A</text>
+<text x="530" y="401.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Lecturer A</text>
+<text x="685" y="401.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">40</text>
+<text x="786" y="401.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Self-registration</text>
+<text x="992" y="401.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Open</text>
+<rect x="275" y="422" width="893" height="51" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 422L1168 422" stroke="#dce2e8" fill="none"/>
+<text x="286" y="452.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">BUS101 · Section B</text>
+<text x="530" y="452.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Lecturer B</text>
+<text x="685" y="452.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">35</text>
+<text x="786" y="452.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Assigned enrollment</text>
+<text x="992" y="452.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Draft</text>
+<rect x="275" y="473" width="893" height="51" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 473L1168 473" stroke="#dce2e8" fill="none"/>
+<text x="286" y="503.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">MGT110 · Section A</text>
+<text x="530" y="503.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Lecturer C</text>
+<text x="685" y="503.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">28</text>
+<text x="786" y="503.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Self-registration</text>
+<text x="992" y="503.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Closed</text>
+<rect x="275" y="524" width="893" height="51" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 524L1168 524" stroke="#dce2e8" fill="none"/>
+<text x="286" y="554.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">ENG102 · Section A</text>
+<text x="530" y="554.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Lecturer D</text>
+<text x="685" y="554.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">32</text>
+<text x="786" y="554.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Assigned enrollment</text>
+<text x="992" y="554.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Configured</text>
+<path d="M275 575L1168 575" stroke="#dce2e8" fill="none"/>
+<text x="276" y="633" font-size="13" fill="#506175" font-weight="400" text-anchor="start">4 course sections</text>
+<rect x="993" y="612" width="79" height="32" rx="7" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="1032.5" y="633.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Previous</text>
+<rect x="1077" y="612" width="91" height="32" rx="7" fill="#eeebf8" stroke="none"/>
+<text x="1122.5" y="633.0" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Page 1 of 1</text>
+</svg>

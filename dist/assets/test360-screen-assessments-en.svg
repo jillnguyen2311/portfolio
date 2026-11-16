@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 750" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1240" height="750" rx="0" fill="#eef0f6" stroke="none"/>
+<rect x="18" y="18" width="1204" height="714" rx="13" fill="#f5f6fa" stroke="#dfe3ed"/>
+<rect x="18" y="18" width="1204" height="66" rx="10" fill="#ffffff" stroke="none"/>
+<rect x="39" y="35" width="32" height="32" rx="7" fill="#8b5003" stroke="none"/>
+<text x="55" y="57" font-size="17" fill="#ffffff" font-weight="700" text-anchor="middle">T</text>
+<text x="82" y="58" font-size="22" fill="#152f49" font-weight="700" text-anchor="start">TEST360</text>
+<text x="236" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Assessments</text>
+<text x="362" y="57" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Grading</text>
+<text x="488" y="57" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Results</text>
+<path d="M488 70L540 70" stroke="#8b5003" fill="none"/>
+<rect x="1007" y="34" width="182" height="35" rx="7" fill="#f1f3f8" stroke="none"/>
+<text x="1098.0" y="56.5" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Teacher account</text>
+<rect x="18" y="84" width="213" height="648" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M230 84L230 732" stroke="#dfe3ed" fill="none"/>
+<text x="40" y="126" font-size="12" fill="#506175" font-weight="700" text-anchor="start">ASSESSMENT WORKSPACE</text>
+<circle cx="49" cy="160" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="165" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Assessment list</text>
+<circle cx="49" cy="206" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="211" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Grading sessions</text>
+<rect x="32" y="233" width="185" height="34" rx="6" fill="#ffefc3" stroke="none"/>
+<circle cx="49" cy="252" r="4" fill="#795003" stroke="none"/>
+<text x="61" y="257" font-size="14" fill="#795003" font-weight="700" text-anchor="start">Assessment results</text>
+<circle cx="49" cy="298" r="4" fill="#bcc3ce" stroke="none"/>
+<text x="61" y="303" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Score synchronization</text>
+<text x="257" y="119" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Results / Teacher workspace</text>
+<text x="257" y="158" font-size="29" fill="#152f49" font-weight="700" text-anchor="start">Assessment results</text>
+<text x="257" y="186" font-size="14" fill="#506175" font-weight="400" text-anchor="start">Find an assessment and review its scores before synchronizing.</text>
+<rect x="1007" y="134" width="180" height="36" rx="7" fill="#f2b83e" stroke="none"/>
+<text x="1097.0" y="157.0" font-size="14" fill="#322405" font-weight="700" text-anchor="middle">Synchronize scores</text>
+<rect x="257" y="213" width="930" height="471" rx="10" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="275" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Term</text>
+<rect x="275" y="259" width="215" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="285" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Term 1</text>
+<path d="M468 276.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="501" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Class</text>
+<rect x="501" y="259" width="215" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="511" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All classes</text>
+<path d="M694 276.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="727" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Subject</text>
+<rect x="727" y="259" width="215" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="737" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All subjects</text>
+<path d="M920 276.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="953" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Status</text>
+<rect x="953" y="259" width="215" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="963" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All statuses</text>
+<path d="M1146 276.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="275" y="326" width="893" height="49" rx="0" fill="#ffeab7" stroke="none"/>
+<text x="286" y="355.5" font-size="13" fill="#67430f" font-weight="700" text-anchor="start">Select</text>
+<text x="380" y="355.5" font-size="13" fill="#67430f" font-weight="700" text-anchor="start">Assessment</text>
+<text x="628" y="355.5" font-size="13" fill="#67430f" font-weight="700" text-anchor="start">Subject</text>
+<text x="783" y="355.5" font-size="13" fill="#67430f" font-weight="700" text-anchor="start">Class</text>
+<text x="887" y="355.5" font-size="13" fill="#67430f" font-weight="700" text-anchor="start">Score status</text>
+<rect x="275" y="375" width="893" height="49" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 375L1168 375" stroke="#dce2e8" fill="none"/>
+<text x="286" y="404.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">✓</text>
+<text x="380" y="404.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Speaking practice 1</text>
+<text x="628" y="404.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Mathematics</text>
+<text x="783" y="404.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="887" y="404.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<rect x="275" y="424" width="893" height="49" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 424L1168 424" stroke="#dce2e8" fill="none"/>
+<text x="286" y="453.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">□</text>
+<text x="380" y="453.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Unit review</text>
+<text x="628" y="453.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Mathematics</text>
+<text x="783" y="453.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A2</text>
+<text x="887" y="453.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<rect x="275" y="473" width="893" height="49" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M275 473L1168 473" stroke="#dce2e8" fill="none"/>
+<text x="286" y="502.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">□</text>
+<text x="380" y="502.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Writing practice</text>
+<text x="628" y="502.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Literature</text>
+<text x="783" y="502.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="887" y="502.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<rect x="275" y="522" width="893" height="49" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M275 522L1168 522" stroke="#dce2e8" fill="none"/>
+<text x="286" y="551.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">□</text>
+<text x="380" y="551.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Reading check</text>
+<text x="628" y="551.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Literature</text>
+<text x="783" y="551.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A2</text>
+<text x="887" y="551.5" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<path d="M275 571L1168 571" stroke="#dce2e8" fill="none"/>
+<rect x="887" y="385" width="142" height="26" rx="7" fill="#e2f5e8" stroke="none"/>
+<text x="958.0" y="403.0" font-size="14" fill="#205b39" font-weight="700" text-anchor="middle">Scores finalized</text>
+<rect x="887" y="434" width="142" height="26" rx="7" fill="#ffefdb" stroke="none"/>
+<text x="958.0" y="452.0" font-size="14" fill="#873b16" font-weight="700" text-anchor="middle">Ready to finalize</text>
+<rect x="887" y="483" width="142" height="26" rx="7" fill="#e2f5e8" stroke="none"/>
+<text x="958.0" y="501.0" font-size="14" fill="#205b39" font-weight="700" text-anchor="middle">Scores finalized</text>
+<rect x="887" y="532" width="142" height="26" rx="7" fill="#ffefdb" stroke="none"/>
+<text x="958.0" y="550.0" font-size="14" fill="#873b16" font-weight="700" text-anchor="middle">Ready to finalize</text>
+<text x="275" y="646" font-size="13" fill="#506175" font-weight="400" text-anchor="start">4 assessments · 1 selected</text>
+<rect x="993" y="625" width="79" height="32" rx="7" fill="#ffffff" stroke="#dfe3ed"/>
+<text x="1032.5" y="646.0" font-size="14" fill="#506175" font-weight="700" text-anchor="middle">Previous</text>
+<rect x="1077" y="625" width="91" height="32" rx="7" fill="#eeebf8" stroke="none"/>
+<text x="1122.5" y="646.0" font-size="14" fill="#152f49" font-weight="700" text-anchor="middle">Page 1 of 1</text>
+</svg>

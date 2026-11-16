@@ -244,7 +244,7 @@ def presentation(project, following):
     if project_id in FIGMA_LINKS:
         primary, *related = FIGMA_LINKS[project_id]
         figma_cta = figma_button(*primary)
-        gallery_cta = '<a class="button button-outline" href="#design-evidence">View design gallery <span aria-hidden="true">↓</span></a>'
+        gallery_cta = '<a class="button button-outline" href="#figma-full-screens">View full-screen designs <span aria-hidden="true">↓</span></a>'
         references = "".join(link(label, url) for label, url in related)
         related_files = f'<div class="figma-links">{references}</div>' if references else ""
         skills = "".join(f'<li>{escape(skill)}</li>' for skill in FIGMA_SKILLS[project_id])
