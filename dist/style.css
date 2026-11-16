@@ -234,9 +234,9 @@ h1 em,h2 em{color:var(--violet);font-style:normal}
 .cover-sms360 .art-image,.cover-uni360 .art-image,.cover-lms360 .art-image,.cover-test360 .art-image,.cover-elib360 .art-image{object-fit:contain;object-position:center}
 .case-hero .case-live{margin-top:18px}
 .case-archive-preview{margin-block:24px}
-.design-stills{margin-block:25px}
-.design-stills figcaption{padding:12px 14px;color:var(--body);font-size:14px}
-.artifact-figure img[width][height]{height:auto}
+.design-video{margin-block:25px}
+.design-video video{display:block;width:100%;height:auto;border-radius:12px;background:#1c132a}
+.design-video figcaption{padding:12px 14px;color:var(--body);font-size:14px}
 @media(max-width:690px){.diagram-trace .rule-row{grid-template-columns:65px 1fr;padding:5px 0;font-size:10px}.art-caption{font-size:9px}}
 #design-evidence .gallery + h3{margin-top:26px}
 #design-evidence .gallery + .table-scroll{margin-top:24px}

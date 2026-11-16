@@ -358,18 +358,13 @@ def design_page(name, description, slug):
     media = f'<figure class="case-art"><img src="../assets/{slug}.webp" alt="{escape(description, quote=True)}"></figure>'
     if slug == "bunny-video":
         media = """
-    <figure class="case-art design-stills">
-      <img src="../assets/bunny-short-birthday.webp" width="960" height="540" alt="A child holds a white rabbit they received as a birthday gift">
-      <figcaption>Selected frames from the animated short.</figcaption>
+    <figure class="case-art design-video">
+      <video controls playsinline preload="none" width="1280" height="720" poster="../assets/bunny-rescue.webp" aria-label="Think Before Getting a Bunny animated short">
+        <source src="../assets/think-before-getting-a-bunny.mp4" type="video/mp4">
+        <a href="../assets/think-before-getting-a-bunny.mp4">Open the video (.mp4)</a>
+      </video>
+      <figcaption>Watch the original 1-minute animated short.</figcaption>
     </figure>
-    <div class="gallery">
-      <figure class="artifact-figure"><img src="../assets/bunny-short-rain.webp" width="960" height="540" alt="The rabbit sits alone in the rain" loading="lazy">
-        <figcaption><strong>Left behind</strong></figcaption>
-      </figure>
-      <figure class="artifact-figure"><img src="../assets/bunny-short-rescue.webp" width="960" height="540" alt="A person in a yellow raincoat rescues the rabbit" loading="lazy">
-        <figcaption><strong>The rescue</strong></figcaption>
-      </figure>
-    </div>
     <section class="case-section">
       <h2>Character and scene design</h2>
       <div class="gallery">
