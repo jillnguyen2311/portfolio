@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A BCIT team prototype that turns an oral-health scan result into severity information and supporting resources.">
+  <meta name="theme-color" content="#fdfbff">
+  <title>WhiteStone | Jill Nguyen</title>
+  <link rel="canonical" href="https://jillnguyen2311.github.io/portfolio/projects/whitestone.html">
+  <link rel="icon" type="image/png" href="../assets/jill-mark.png">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../site.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../"><img class="brand-mark" src="../assets/jill-mark.png" alt="" width="34" height="34"><span>Jill Nguyen</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="../#work">Projects</a><a href="../#about">About</a><a href="../#contact">Contact</a>
+    </nav>
+    <a class="button button-outline" href="https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site/assets/Jill_Nguyen_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume <span class="arrow out-arrow" aria-hidden="true">↑</span></a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="case-hero" aria-labelledby="case-title">
+    <div class="case-wrap">
+      <a class="text-link" href="../#work">← Back to projects</a>
+      <p class="eyebrow">BCIT · Product prototype</p>
+      <h1 id="case-title">WhiteStone</h1>
+      <p class="intro">A BCIT team prototype that turns an oral-health scan result into severity information and supporting resources.</p>
+      <a class="button button-main case-live" href="https://whitestone-idsp.vercel.app/" target="_blank" rel="noopener noreferrer">Open live WhiteStone app <span class="out-arrow" aria-hidden="true">↑</span></a>
+    </div>
+  </section>
+  <article class="case-wrap case-body" aria-labelledby="case-title">
+    <dl class="case-meta">
+      <div><dt>My role</dt><dd>UI/UX Designer and Front-end Developer</dd></div>
+      <div><dt>Period</dt><dd>2023</dd></div>
+      <div><dt>Project stage</dt><dd>Team prototype</dd></div>
+    </dl>
+    <nav class="case-jumps" aria-label="On this page"><a href="#design-evidence">Mockups and prototype</a></nav>
+
+
+    <section class="case-section"><h2>What the team set out to build</h2><p>WhiteStone was a student prototype for communicating oral-health screening findings. A user needed to understand their results and find helpful reading without having to interpret the raw output.</p></section><section class="case-section"><h2>My design and implementation contribution</h2><p>I used team personas and wireframes to work through the results experience, including grouping findings by severity and giving users a path from a finding to related resources. I built the results flow and Health Resources components in Next.js and contributed to the prototype presentation.</p></section><section class="case-section"><h2>From component to prototype</h2><p>The gallery shows the shared components, wireframe alternatives and high-fidelity work that guided implementation. For the results interface, labelled severity states give a finding a readable status and the resource section provides a follow-up path.</p></section>
+    <section class="artifact-section" id="design-evidence"><h2>Design evidence</h2><div class="figma-links"><a class="text-link" href="https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site/projects/whitestone.html#design-evidence" target="_blank" rel="noopener noreferrer">Figma references on the original portfolio <span class="out-arrow" aria-hidden="true">↑</span></a></div><h3>Components and prototype</h3><div class="gallery"><figure class="artifact-figure"><a href="../assets/white-components.webp"><img src="../assets/white-components.webp" alt="Shared component board" loading="lazy"></a><figcaption><strong>Shared component board</strong><p>The original design export groups actions, inputs, status indicators and navigation.</p></figcaption></figure><figure class="artifact-figure"><a href="../assets/white-component-details.webp"><img src="../assets/white-component-details.webp" alt="Navigation and result components" loading="lazy"></a><figcaption><strong>Navigation and result components</strong><p>A closer look at navigation, the severity indicator and the expandable recommendation in light and dark variants.</p></figcaption></figure><figure class="artifact-figure"><a href="../assets/white-style.webp"><img src="../assets/white-style.webp" alt="Visual variations" loading="lazy"></a><figcaption><strong>Visual variations</strong><p>The board explores different colour treatments and their application across common screens.</p></figcaption></figure><figure class="artifact-figure"><a href="../assets/white-wireframes.webp"><img src="../assets/white-wireframes.webp" alt="Wireframe alternatives" loading="lazy"></a><figcaption><strong>Wireframe alternatives</strong><p>Several structures helped the team review the steps before progressing to the high-fidelity design.</p></figcaption></figure><figure class="artifact-figure"><a href="../assets/white-results.webp"><img src="../assets/white-results.webp" alt="High-fidelity prototype" loading="lazy"></a><figcaption><strong>High-fidelity prototype</strong><p>Two versions of the complete path from onboarding to scanning and results.</p></figcaption></figure><figure class="artifact-figure"><a href="../assets/white-result-states.webp"><img src="../assets/white-result-states.webp" alt="Loading, result and detail states" loading="lazy"></a><figcaption><strong>Loading, result and detail states</strong><p>Three adjacent states show how the product moves from processing to the result summary and supporting guidance.</p></figcaption></figure></div><div class="table-scroll" tabindex="0" role="region" aria-label="Figma pattern table"><table class="artifact-table"><thead><tr><th scope="col">Figma pattern</th><th scope="col">What the source shows</th><th scope="col">Handoff decision</th></tr></thead><tbody><tr><td>Capture and image confirmation</td><td>The board shows scanning and how the user moves from the camera to the selected image.</td><td>Give users a clear point to accept the image or retake it.</td></tr><tr><td>Result and resource patterns</td><td>Design exports show reusable result elements, severity treatments and related resources.</td><td>Maintain readable status labels and a clear path from findings to education.</td></tr><tr><td>Reusable UI and variants</td><td>The exported team boards include navigation, buttons and colour and size variations.</td><td>Carry visual and interaction decisions into the Next.js components.</td></tr></tbody></table></div></section>
+
+    <section class="evidence"><h2>Project evidence</h2><div class="evidence-links"><a class="text-link" href="https://github.com/WhiteStoneDental/whitestone_IDSP" target="_blank" rel="noopener noreferrer">WhiteStone team repository <span class="out-arrow" aria-hidden="true">↑</span></a></div></section>
+    <nav class="case-nav" aria-label="Case study navigation">
+      <a class="text-link" href="../#work">← Back to projects</a><a class="text-link" href="heathelp.html">Next project · HeatHelp <span aria-hidden="true">→</span></a>
+    </nav>
+  </article>
+</main>
+
+<footer class="site-footer"><div class="wrap footer-inner"><strong>Jill Nguyen</strong><span>Business Analysis Portfolio · Vancouver, BC</span></div></footer>
+</body>
+</html>
