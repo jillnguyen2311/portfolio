@@ -39,7 +39,7 @@ PROJECTS = [{'id': 'sms360',
                 'first had to be copied. That separated a missing source-data step from a transport failure. I '
                 'also proposed that first-term grading proceed independently while digital report cards retain '
                 'the annual gradebook dependency.')],
-  'links': [('SMS360 product site', 'https://qlth.lms360.vn/')]},
+  'product_url': 'https://qlth.lms360.vn/'},
  {'id': 'uni360',
   'name': 'UNI360',
   'type': 'Higher education · Systems design',
@@ -69,7 +69,7 @@ PROJECTS = [{'id': 'sms360',
                 'I linked the rules to test cases for unmet prerequisites, full sections and overlapping '
                 'times. The BPMN below follows the student route and identifies where a request terminates '
                 'without creating a record. The ERD shows where each accepted enrollment is stored.')],
-  'links': []},
+  'product_url': 'https://uni.lms360.vn/'},
  {'id': 'vlip',
   'name': 'VLIP',
   'type': 'Vancouver Local Immigration Partnership · Redesign',
@@ -237,7 +237,8 @@ PROJECTS = [{'id': 'sms360',
                ('Rules to verify',
                 'Change curriculum and verify the eligible subjects and series change. Attempt to open a '
                 'school-only asset without the correct sign-in. Follow a linked interactive learning asset '
-                'through to the learning platform.')]},
+                'through to the learning platform.')],
+  'product_url': 'https://elib360.vn/vi'},
  {'id': 'lms360',
   'name': 'LMS360',
   'type': 'BachKhoaTech · Learning platform',
@@ -261,7 +262,7 @@ PROJECTS = [{'id': 'sms360',
                 'The design establishes which placement appears on each product surface and where it leads. '
                 'Verification can compare the approved placement, desktop and mobile rendering and the '
                 'intended destination against the request.')],
-  'links': [('LMS360 platform', 'https://lms360.vn/')]},
+  'product_url': 'https://lms360.vn/'},
  {'id': 'test360',
   'name': 'TEST360',
   'type': 'BachKhoaTech · Digital assessment',
@@ -286,7 +287,8 @@ PROJECTS = [{'id': 'sms360',
                 'Treat the term, subject and grade column as destination inputs. Make the conversion choices '
                 'visible beside the results, then confirm the selected mapping before proceeding. In a '
                 'validation example, compare the source and converted columns and verify that a change to '
-                'rounding is reflected in the preview.')]}]
+                'rounding is reflected in the preview.')],
+  'product_url': 'https://thi.lms360.vn/'}]
 
 ARCHIVE = [('NBA Tracker', 'API-backed sports information', 'NBATracker-final-project-MDIA3109'),
  ('Expo and Millennium Line Map',

@@ -183,10 +183,13 @@ DOCS = {
 GALLERIES = {
     "sms360": [
         ("Homeroom workspace", [
+            ("sms360-figma-notebook.webp", "Homeroom notebook workspace · Figma capture", "The original frame puts grade filtering, reviewer assignment, template downloads and opening a notebook in one workspace."),
             ("sms-homeroom-records-en.svg", "Class notebook list", "Grade filtering sits above the class table, with distinct actions for opening a notebook and downloading its template."),
             ("sms-reviewer-assignments-en.svg", "Leadership reviewer assignment", "The grade-wide control and class-level selectors apply the same assignment pattern at different scopes."),
         ]),
         ("Component library", [
+            ("sms360-figma-login-component.webp", "Sign-in dialog component · Figma capture", "A reusable form combines a role selector, text and password fields, an account preference and the primary sign-in action."),
+            ("sms360-figma-notification-variants.webp", "Notification variants · Figma capture", "Success and failure share a dismissible notification pattern. The failure state gives the user an explicit next step to retry."),
             ("sms-button-source-en.webp", "Complete button set · Figma capture", "The original eight variants are shown together. The four text labels have been translated to English."),
             ("sms-action-family-en.svg", "Button properties and icon combinations", "The set combines four types with default and disabled states. Leading and trailing icons are controlled separately."),
             ("sms-input-source-en.webp", "Complete input set · Figma capture", "Large and small inputs are shown in default, disabled and special states. Field labels and validation text are translated into English."),
@@ -198,6 +201,7 @@ GALLERIES = {
     ],
     "uni360": [
         ("Academic operations", [
+            ("uni360-figma-form-variants.webp", "Course-section form set · Figma capture", "The original canvas compares creating a self-registration section, editing it and setting up assigned enrollment."),
             ("uni-course-section-variants-en.svg", "Course-section form variants", "The form layout distinguishes both create and edit variants and shows which registration controls depend on the selected mode."),
             ("uni-cohort-operations-en.svg", "Cohort records and related tabs", "The class list and detail wireframes keep cohort membership, program, intake and lecturer information easy to locate."),
         ]),
@@ -207,15 +211,20 @@ GALLERIES = {
             ("elib-advanced-search-en.svg", "Advanced search overlay", "Two levels of dependent filters make the relationship between curriculum, subject, textbook series, education level and grade visible."),
             ("elib-results-access-en.svg", "Resource cards and school access", "Resource cards preserve browsing context. Restricted items prompt users for school access on opening."),
         ]),
+        ("Search and sorting components", [
+            ("elib360-figma-sort-variants.webp", "Sort dropdown and selected states · Figma capture", "The component shows the open list and three selected states for newest, most viewed and most downloaded resources."),
+        ]),
     ],
     "lms360": [
         ("Teacher and learner workspaces", [
+            ("lms360-figma-teacher-controls.webp", "Teacher workspace controls · Figma capture", "The original frame combines filter fields, the create-topic action, pagination and actions for different learning materials."),
             ("lms-teacher-learning-topics-en.svg", "Teacher topic and material list", "Grade and subject filtering, material actions and review counts in the teacher’s workspace. Sample rows use fictional data."),
             ("lms-speaking-mode-frames-en.svg", "Speaking-practice setup and learner cards", "The teacher’s selected activity type determines whether learners see a passage or topic. The cards and guidance set expectations before recording."),
         ]),
     ],
     "test360": [
         ("Grading and synchronization", [
+            ("test360-figma-sync-states.webp", "Score synchronization list · Figma capture", "The teacher can filter assessments and use row selection and status badges to distinguish records at different stages."),
             ("test-grading-session-en.svg", "Grading-session setup and results", "The grading session identifies the assessment and class before the teacher reviews individual scores."),
             ("test-score-sync-preview-en.svg", "Score synchronization preview", "The teacher checks five mapping controls and compares source and converted scores before committing. The sample uses fictional student data."),
         ]),
@@ -233,6 +242,9 @@ GALLERIES = {
             ("white-figma-results-summary.webp", "Results summary · Figma capture", "Severity labels and grouped findings help users understand the scan before opening a detail."),
             ("white-figma-results-detail.webp", "Expanded finding · Figma capture", "Opening a finding highlights the corresponding area and reveals guidance with a link to read more."),
         ]),
+        ("Reusable UI close-ups", [
+            ("white-figma-recommendation-detail.webp", "Recommendation component · Design export detail", "Light and dark treatments keep the finding, recommendation copy and related resource action in the same layout."),
+        ]),
     ],
     "heathelp": [
         ("Wireframes, components and implementation", [
@@ -243,6 +255,9 @@ GALLERIES = {
             ("heat-buttons.webp", "Button and feedback components", "The design library groups quiz selection, correct and incorrect feedback, and the continue action."),
             ("heat-final.webp", "Implemented experience", "The product homepage reflects the navigation and activity choices explored in the mockups."),
         ]),
+        ("Quiz component close-ups", [
+            ("heat-figma-feedback-detail.webp", "Answer feedback variants · Design export detail", "Correct, incorrect and continue states use consistent positioning and distinct labels and colours."),
+        ]),
     ],
 }
 
@@ -251,8 +266,8 @@ def design_gallery(project_id, figma_sources):
     groups = GALLERIES[project_id]
     localized = project_id in {"sms360", "uni360", "elib360", "lms360", "test360"}
     context = (
-        '<p class="sample-note">The images below include English translations and annotated adaptations of the Figma layouts. The sample screens use fictional records. '
-        'The original design files contain the complete collections and prototype details.</p>'
+        '<p class="sample-note">The gallery includes original Figma captures and English-language adaptations. Adapted screens use fictional records. '
+        'Select an image to inspect it at full size.</p>'
         if localized else ""
     )
     galleries = []

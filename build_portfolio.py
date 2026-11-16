@@ -273,7 +273,14 @@ def presentation(project, following):
         live_cta = (f'<a class="button button-main" href="{escape(live, quote=True)}"{NEW_TAB}>'
                     f'Open live {title} app <span class="out-arrow" aria-hidden="true">↑</span></a>')
     evidence = f'<section class="evidence"><h2>Project evidence</h2><div class="evidence-links">{"".join(sources)}</div></section>' if sources else ""
-    actions = figma_cta + gallery_cta + live_cta
+    product_url = project.get("product_url")
+    primary_action = figma_cta
+    if product_url:
+        primary_action = (
+            f'<a class="button button-main" href="{escape(product_url, quote=True)}"{NEW_TAB}>Visit live product '
+            '<span class="out-arrow" aria-hidden="true">↑</span></a>'
+        )
+    actions = primary_action + gallery_cta + live_cta
     case_actions = f'<div class="figma-actions case-actions">{actions}</div>' if actions else ""
     archive_preview = ""
     if project_id == "westernstains":

@@ -208,7 +208,8 @@ h1 em,h2 em{color:var(--violet);font-style:normal}
 .figma-gallery .artifact-figure a{display:block;background:#f7f1ff}
 .figma-gallery .artifact-figure a:focus-visible{outline-offset:-4px}
 .figma-gallery .artifact-figure img{display:block;aspect-ratio:1.7;padding:6px;background:transparent}
-.gallery .artifact-figure img[src*="white-figma-results-"]{aspect-ratio:1.25;object-fit:contain}
+.figma-gallery .artifact-figure img[src*="-figma-"]{aspect-ratio:1.3;max-height:430px}
+.figma-gallery:has(>.artifact-figure:only-child){grid-template-columns:1fr}
 .figma-gallery .artifact-figure p{color:var(--body)}
 .figma-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px 14px}
 .figma-links .text-link{font-size:13px}

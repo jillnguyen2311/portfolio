@@ -39,11 +39,11 @@ FIGMA_LINKS = {
 }
 
 FIGMA_SKILLS = {
-    "sms360": ("Component variants", "Permission states", "Annotated developer handoff"),
+    "sms360": ("Component variants", "Dialog and feedback states", "Permission states", "Annotated developer handoff"),
     "uni360": ("FigJam role mapping", "Conditional forms", "Create and edit layouts"),
     "whitestone": ("Wireframing", "High-fidelity prototyping", "Light and dark variants"),
     "heathelp": ("Low- and high-fidelity mockups", "Quiz feedback components", "Usability iteration"),
-    "elib360": ("Information architecture", "Dependent filter states", "Access prompts"),
+    "elib360": ("Information architecture", "Dependent filter states", "Dropdown variants", "Access prompts"),
     "lms360": ("Teacher and learner flows", "Activity-specific layouts", "Role-based screens"),
     "test360": ("Assessment workflow", "Score conversion previews", "Confirmation states"),
 }
