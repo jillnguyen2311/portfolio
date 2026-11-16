@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Why a notebook belongs to a class and academic year, and how a grade policy belongs to a particular semester.">
+  <meta name="description" content="Visit the Database specification website.">
   <meta name="theme-color" content="#fdfbff">
-  <title>Database specification | SMS360</title>
+  <title>Database specification | Jill Nguyen</title>
   <link rel="canonical" href="https://jillnguyen2311.github.io/portfolio/projects/sms360-data-model.html">
   <link rel="icon" type="image/png" href="../assets/jill-mark.png">
   <link rel="stylesheet" href="../style.css">
@@ -23,21 +23,11 @@
   </div>
 </header>
 
-<main id="main">
-  <section class="case-hero"><div class="case-wrap">
-    <a class="text-link" href="sms360.html#work-samples">← Back to SMS360 work samples</a>
-    <p class="eyebrow">SMS360 · Portfolio work sample</p>
-    <h1>Database specification</h1><p class="intro">Why a notebook belongs to a class and academic year, and how a grade policy belongs to a particular semester.</p>
-  </div></section>
-  <article class="case-wrap case-body sample-body">
-    <p class="sample-note">Adapted from work on SMS360. Examples use fictional records and representative implementation names.</p>
-    <section class="artifact-section" id="erd"><h2>Logical entity relationships</h2><figure class="artifact-figure"><a href="../assets/sms-notebook-erd.svg"><img src="../assets/sms-notebook-erd.svg" alt="Homeroom notebook entity relationship diagram" loading="lazy"></a><figcaption><strong>Homeroom notebook entity relationship diagram</strong><p>A class and academic year resolve to one notebook. Reporting sections, reviewer assignments and audit events attach to that notebook.</p></figcaption></figure></section><section class="artifact-section" id="dictionary"><h2>Data dictionary</h2><div class="table-scroll" tabindex="0" role="region" aria-label="Entity table"><table class="artifact-table"><thead><tr><th scope="col">Entity</th><th scope="col">Primary key</th><th scope="col">Scope or foreign keys</th><th scope="col">Rule</th></tr></thead><tbody><tr><td>Class</td><td>class_id</td><td>school_id</td><td>Provides the notebook’s school scope.</td></tr><tr><td>Academic year</td><td>academic_year_id</td><td>school context</td><td>Provides the year dimension. One year can contain several terms.</td></tr><tr><td>Homeroom notebook</td><td>notebook_id</td><td>class_id + academic_year_id</td><td>Unique pair. The selected term never creates a new notebook.</td></tr><tr><td>Notebook section data</td><td>section_record_id</td><td>notebook_id</td><td>Child data for reports, plans and other sections. Term-specific content can carry a reporting checkpoint.</td></tr><tr><td>Notebook authorization</td><td>assignment_id</td><td>notebook_id, user_id, access role</td><td>Links a user to the notebook with page-level access rules.</td></tr><tr><td>Notebook audit</td><td>event_id</td><td>notebook_id, actor_id</td><td>Stores operation, time and a change snapshot.</td></tr><tr><td>Grade visibility policy</td><td>configuration_id</td><td>school_id + academic_year_id + semester_id</td><td>Unique policy tuple. Status and JSON flag determine the effective visibility.</td></tr><tr><td>Grade policy audit</td><td>event_id</td><td>configuration_id, actor_id</td><td>Stores operation, before/after snapshot, time and source channel.</td></tr></tbody></table></div></section><section class="artifact-section" id="lifecycle"><h2>Record lifecycle and constraints</h2><ul><li>On first notebook access, resolve the school-scoped class and year, then create or return the existing notebook under the class-year uniqueness constraint.</li><li>The term selection determines the reporting content. The class-year key continues to resolve the same notebook.</li><li>Selector fields and identities originate in the school’s academic data. Existing notebook history remains associated with the original record.</li><li>Notebook and grade-policy changes have separate audit trails because their scopes and payloads differ.</li></ul></section><section class="artifact-section" id="validation"><h2>SQL validation sample</h2><p>This sample checks the class-year invariant on the illustrative schema.</p><div class="code-example"><h3>Duplicate notebook check</h3><pre><code>SELECT class_id, academic_year_id, COUNT(*) AS notebook_count
-FROM homeroom_notebook
-GROUP BY class_id, academic_year_id
-HAVING COUNT(*) &gt; 1;</code></pre></div></section>
-    <a class="button button-outline print-sample" href="../assets/sms360-data-model.pdf" download>Download PDF ↓</a>
-  </article>
-</main>
+<main id="main"><section class="case-hero"><div class="case-wrap">
+  <a class="text-link" href="../#work">← Back to projects</a>
+  <h1>Database specification</h1>
+  <a class="button button-main case-live" href="https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site/projects/sms360-data-model.html" target="_blank" rel="noopener noreferrer">Visit website <span class="out-arrow" aria-hidden="true">↑</span></a>
+</div></section></main>
 <footer class="site-footer"><div class="wrap footer-inner"><strong>Jill Nguyen</strong><span>Business Analysis Portfolio · Vancouver, BC</span></div></footer>
 </body>
 </html>

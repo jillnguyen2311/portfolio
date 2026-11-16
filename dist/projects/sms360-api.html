@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Manage the term’s grade-visibility rule and apply it consistently to the score response.">
+  <meta name="description" content="Visit the REST API specification website.">
   <meta name="theme-color" content="#fdfbff">
-  <title>REST API specification | SMS360</title>
+  <title>REST API specification | Jill Nguyen</title>
   <link rel="canonical" href="https://jillnguyen2311.github.io/portfolio/projects/sms360-api.html">
   <link rel="icon" type="image/png" href="../assets/jill-mark.png">
   <link rel="stylesheet" href="../style.css">
@@ -23,34 +23,11 @@
   </div>
 </header>
 
-<main id="main">
-  <section class="case-hero"><div class="case-wrap">
-    <a class="text-link" href="sms360.html#work-samples">← Back to SMS360 work samples</a>
-    <p class="eyebrow">SMS360 · Portfolio work sample</p>
-    <h1>REST API specification</h1><p class="intro">Manage the term’s grade-visibility rule and apply it consistently to the score response.</p>
-  </div></section>
-  <article class="case-wrap case-body sample-body">
-    <p class="sample-note">Adapted from work on SMS360. Examples use fictional records and representative implementation names.</p>
-    <section class="artifact-section" id="operations"><h2>Operations</h2><p>Routes and JSON fields below are representative. School scope is resolved from authenticated context and term parameters are validated against that school.</p><div class="table-scroll" tabindex="0" role="region" aria-label="Operation table"><table class="artifact-table"><thead><tr><th scope="col">Operation</th><th scope="col">Authorized caller</th><th scope="col">Purpose</th></tr></thead><tbody><tr><td>GET /example/grade-visibility</td><td>School administrator</td><td>Read active configuration and the effective visibility for the selected term.</td></tr><tr><td>POST /example/grade-visibility</td><td>School administrator</td><td>Validate the school-term scope, upsert settings and record a CREATE or UPDATE audit event.</td></tr><tr><td>GET /example/scores</td><td>Authorized score viewer</td><td>Resolve the effective policy and project the appropriate score fields for the audience.</td></tr></tbody></table></div></section><section class="artifact-section" id="contract"><h2>Representative request, response and audit</h2><div class="code-grid"><div class="code-example"><h3>Save grade visibility · request</h3><pre><code>{
-  &quot;academicYear&quot;: &quot;YEAR-DEMO&quot;,
-  &quot;semester&quot;: &quot;TERM-2&quot;,
-  &quot;active&quot;: true,
-  &quot;showAverage&quot;: false
-}</code></pre></div><div class="code-example"><h3>Hidden average · score response</h3><pre><code>{
-  &quot;studentRef&quot;: &quot;STUDENT-DEMO&quot;,
-  &quot;subjectRef&quot;: &quot;SUBJECT-DEMO&quot;,
-  &quot;componentScores&quot;: [8, 7, 9]
-}</code></pre></div><div class="code-example"><h3>Policy update · audit record</h3><pre><code>{
-  &quot;operation&quot;: &quot;UPDATE&quot;,
-  &quot;actorRef&quot;: &quot;ADMIN-DEMO&quot;,
-  &quot;channel&quot;: &quot;WEB&quot;,
-  &quot;occurredAt&quot;: &quot;2026-01-15T18:00:00Z&quot;,
-  &quot;before&quot;: {&quot;active&quot;: true, &quot;showAverage&quot;: true},
-  &quot;after&quot;:  {&quot;active&quot;: true, &quot;showAverage&quot;: false}
-}</code></pre></div></div></section><section class="artifact-section" id="decision"><h2>Rule resolution</h2><div class="table-scroll" tabindex="0" role="region" aria-label="Configuration table"><table class="artifact-table"><thead><tr><th scope="col">Configuration</th><th scope="col">Visibility flag</th><th scope="col">Effective result</th><th scope="col">Payload rule</th></tr></thead><tbody><tr><td>No configuration</td><td>—</td><td>Visible</td><td>Default applies</td></tr><tr><td>Configuration inactive</td><td>Either value</td><td>Visible</td><td>Default applies</td></tr><tr><td>Configuration active</td><td>True</td><td>Visible</td><td>Return average</td></tr><tr><td>Configuration active</td><td>False</td><td>Hidden</td><td>Suppress average in the score response</td></tr></tbody></table></div></section><section class="artifact-section" id="responses"><h2>Response and error examples</h2><div class="table-scroll" tabindex="0" role="region" aria-label="Scenario table"><table class="artifact-table"><thead><tr><th scope="col">Scenario</th><th scope="col">Illustrative response</th><th scope="col">Consumer action</th></tr></thead><tbody><tr><td>Valid read or update</td><td>200 OK</td><td>Apply the effective visibility returned for the selected term.</td></tr><tr><td>Missing or invalid term data</td><td>400 Bad Request</td><td>Identify the invalid field. Preserve the previous setting.</td></tr><tr><td>Session missing or invalid</td><td>401 Unauthorized</td><td>Authenticate before retrieving protected data.</td></tr><tr><td>Role or school scope fails validation</td><td>403 Forbidden</td><td>Reject the update without writing a configuration.</td></tr><tr><td>Temporary service failure</td><td>5xx</td><td>Keep the last confirmed configuration and surface a retry path.</td></tr></tbody></table></div></section><section class="artifact-section" id="audit"><h2>Verification and diagnosis</h2><p>For a saved change, reconcile school, academic year, semester, actor and client channel with the audit event. When diagnosing a missing conduct score, I treated the successful HTTP status separately from the empty JSON result, then identified the required score-copy step described in the response.</p></section>
-    <a class="button button-outline print-sample" href="../assets/sms360-api.pdf" download>Download PDF ↓</a>
-  </article>
-</main>
+<main id="main"><section class="case-hero"><div class="case-wrap">
+  <a class="text-link" href="../#work">← Back to projects</a>
+  <h1>REST API specification</h1>
+  <a class="button button-main case-live" href="https://jill-nguyen-portfolio.finiteseahorse1.chatgpt.site/projects/sms360-api.html" target="_blank" rel="noopener noreferrer">Visit website <span class="out-arrow" aria-hidden="true">↑</span></a>
+</div></section></main>
 <footer class="site-footer"><div class="wrap footer-inner"><strong>Jill Nguyen</strong><span>Business Analysis Portfolio · Vancouver, BC</span></div></footer>
 </body>
 </html>
