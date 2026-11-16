@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 388" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="960" height="388" rx="0" fill="#f4efff" stroke="none"/>
+<rect x="19" y="20" width="442" height="344" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="37" y="55" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">Open sort dropdown</text>
+<text x="37" y="79" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Choose the order of search results.</text>
+<text x="42" y="117" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sort by</text>
+<rect x="42" y="124" width="398" height="38" rx="6" fill="#ffffff" stroke="#5635ba"/>
+<text x="52" y="148.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Choose a sort order</text>
+<path d="M418 141.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="42" y="169" width="398" height="141" rx="6" fill="#ffffff" stroke="#ded1ff"/>
+<text x="62" y="199" font-size="16" fill="#5635ba" font-weight="400" text-anchor="start">Newest</text>
+<text x="62" y="241" font-size="16" fill="#5635ba" font-weight="400" text-anchor="start">Most viewed</text>
+<text x="62" y="283" font-size="16" fill="#5635ba" font-weight="400" text-anchor="start">Most downloaded</text>
+<rect x="479" y="20" width="462" height="344" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="497" y="55" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">Selected states</text>
+<text x="497" y="79" font-size="13" fill="#506175" font-weight="400" text-anchor="start">The control shows the active sort order.</text>
+<text x="503" y="110" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sort by</text>
+<rect x="503" y="117" width="414" height="38" rx="6" fill="#ffffff" stroke="#5635ba"/>
+<text x="513" y="141.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Newest</text>
+<path d="M895 134.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="503" y="183" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sort by</text>
+<rect x="503" y="190" width="414" height="38" rx="6" fill="#ffffff" stroke="#5635ba"/>
+<text x="513" y="214.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Most viewed</text>
+<path d="M895 207.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="503" y="256" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sort by</text>
+<rect x="503" y="263" width="414" height="38" rx="6" fill="#ffffff" stroke="#5635ba"/>
+<text x="513" y="287.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Most downloaded</text>
+<path d="M895 280.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -409,6 +409,106 @@ def test_grading_setup():
     f.write("test-grading-session-en")
 
 
+def localized_frame_details():
+    f = Frame(height=395, background=SMS_BG)
+    f.card(20, 20, 1000, 355, "Homeroom notebooks", "Archived records", SMS)
+    f.button(41, 96, 166, "Class notebooks")
+    f.button(220, 96, 238, "Assign leadership reviewers", fill=SMS_SOFT, ink=SMS)
+    f.field(42, 166, 232, "Grade", "Grade 6", select=True)
+    f.table(42, 228, [0,75,157,290,456,639,801,950],
+            ["No.", "Class", "Class size", "Homeroom teacher", "Leadership reviewer", "Download template", "Open notebook"],
+            [("1", "6A1", "40", "Teacher A", "Reviewer B", "Download", "Open"),
+             ("2", "6A2", "40", "Teacher A", "Reviewer B", "Download", "Open"),
+             ("3", "6A3", "40", "Teacher A", "Reviewer B", "Download", "Open")], row_height=33)
+    f.write("sms360-figma-notebook-en")
+
+    f = Frame(width=760, height=510, background=SMS_BG)
+    f.card(130, 18, 500, 474, "Sign in", "Reusable role and credential form", SMS)
+    f.field(157, 126, 446, "Role", "Select a role", select=True)
+    f.field(157, 201, 446, "Username", "Enter your username")
+    f.field(157, 276, 446, "Password", "Enter your password")
+    f.text(514, 300, "Show", size=13, fill=SMS, weight=700)
+    f.rect(158, 338, 17, 17, SMS, 3)
+    f.text(166, 351, "✓", size=13, fill=WHITE, align="middle")
+    f.text(184, 352, "Remember me", size=14)
+    f.button(157, 391, 446, "Sign in", height=44)
+    f.write("sms360-figma-login-component-en")
+
+    f = Frame(width=920, height=325, background="#f6f2ed")
+    f.text(36, 43, "Notification component", size=24, weight=700)
+    for top, tint, tone, label, text, mark in (
+        (69, "#edf8ef", "#176849", "Success", "Deleted successfully.", "✓"),
+        (186, "#fff0ed", "#a4322a", "Failure", "Deletion failed. Please try again.", "!"),
+    ):
+        f.rect(35, top, 850, 85, tint, 15, tone)
+        f.circle(79, top+42, 20, tone)
+        f.text(79, top+49, mark, size=23, fill=WHITE, weight=700, align="middle")
+        f.text(113, top+33, label, size=14, fill=tone, weight=700)
+        f.text(113, top+59, text, size=20, weight=700)
+        f.line(811, top+18, 811, top+67, tone)
+        f.text(850, top+54, "×", size=33, fill=tone, align="middle")
+    f.write("sms360-figma-notification-variants-en")
+
+    f = Frame(height=563, background="#f8f0f3")
+    for x, title, mode, detail, action in (
+        (20, "Create course section", "Self-registration", "Registration dates", "Create section"),
+        (359, "Edit course section", "Self-registration", "Registration dates", "Save changes"),
+        (698, "Create course section", "Assigned enrollment", "Cohort class", "Create section"),
+    ):
+        f.card(x, 24, 322, 514, title, mode, UNI)
+        for i, (label, value) in enumerate((
+            ("Section name", "Introduction to Business"),
+            ("Semester", "Semester 1"),
+            ("Lecturer", "Select lecturer"),
+            ("Enrollment mode", mode),
+            (detail, "Set opening and closing dates" if detail == "Registration dates" else "Select cohort class"),
+        )):
+            f.field(x+16, 125+i*72, 290, label, value, select=i>0)
+        f.button(x+16, 482, 290, action, fill=UNI)
+    f.write("uni360-figma-form-variants-en")
+
+    f = Frame(width=960, height=388, background="#f4efff")
+    f.card(19, 20, 442, 344, "Open sort dropdown", "Choose the order of search results.", LIB)
+    f.field(42, 124, 398, "Sort by", "Choose a sort order", outline=LIB, select=True)
+    f.rect(42, 169, 398, 141, WHITE, 6, "#ded1ff")
+    for i, label in enumerate(("Newest", "Most viewed", "Most downloaded")):
+        f.text(62, 199+i*42, label, size=16, fill=LIB)
+    f.card(479, 20, 462, 344, "Selected states", "The control shows the active sort order.", LIB)
+    for i, label in enumerate(("Newest", "Most viewed", "Most downloaded")):
+        f.field(503, 117+i*73, 414, "Sort by", label, outline=LIB, select=True)
+    f.write("elib360-figma-sort-variants-en")
+
+    f = Frame(height=425, background="#eaf2f8")
+    f.card(20, 20, 1000, 381, "Teacher's learning topics", "Filter, create and manage learning materials.", LMS)
+    for x, w, label, value in ((42, 190, "Grade", "All grades"), (247, 190, "Subject", "All subjects"),
+                               (452, 295, "Search", "Search learning topics")):
+        f.field(x, 116, w, label, value, select=label != "Search")
+    f.button(762, 116, 235, "+ Create learning topic", fill=LMS, height=38)
+    f.table(42, 181, [0,62,344,540,680,812,955],
+            ["No.", "Topic", "Create material", "Actions", "Created", "Approved"],
+            [("1", "Grade 4 Mathematics", "+ Add material", "Edit · View", "14 Oct 2025", "0 of 5"),
+             ("2", "Grade 9 Literature", "+ Add material", "Edit · View", "13 Sep 2025", "0 of 5"),
+             ("3", "Vietnamese Studies", "+ Add material", "Edit · View", "20 Aug 2025", "0 of 5")],
+            accent=LMS, tint="#dfeef9", row_height=39)
+    f.text(44, 368, "Showing 1–3 of 3 sample topics", size=14, fill=MUTED)
+    f.button(868, 345, 129, "Page 1 of 1", fill="#edf6fd", ink=LMS)
+    f.write("lms360-figma-teacher-controls-en")
+
+    f = Frame(height=469, background="#fbf6e9")
+    f.card(20, 20, 1000, 425, "Teacher score synchronization", "Filter assessment records before selecting scores to review.", TEST)
+    for i, (label, value) in enumerate((("Period", "Quarter 2"), ("Grade", "All grades"), ("Class", "All classes"), ("Subject", "All subjects"),
+                                        ("Assessment", "All assessments"), ("Format", "All formats"), ("Status", "All statuses"), ("Sync status", "All records"))):
+        f.field(41+(i%4)*241, 113+(i//4)*69, 221, label, value, select=True)
+    f.table(41, 253, [0,135,323,507,601,751,956],
+            ["Select", "Assessment", "Subject", "Class", "Format", "Status"],
+            [("□", "Quiz 15", "Mathematics", "A1", "Multiple choice", ""), ("✓", "Quiz 15", "Mathematics", "A1", "Multiple choice", "")],
+            accent=TEST, tint="#ffe6a5", row_height=42)
+    f.button(799, 300, 163, "Finalize scores", fill="#fff0eb", ink="#903c32", height=32)
+    f.button(799, 342, 163, "Scores finalized", fill="#e5f7eb", ink="#235a35", height=32)
+    f.button(41, 392, 153, "Export to Excel", fill="#fbb83c", ink="#302515")
+    f.write("test360-figma-sync-states-en")
+
+
 if __name__ == "__main__":
     sms_homeroom(reviewers=False)
     sms_homeroom(reviewers=True)
@@ -425,3 +525,4 @@ if __name__ == "__main__":
     lms_speaking_modes()
     test_score_preview()
     test_grading_setup()
+    localized_frame_details()

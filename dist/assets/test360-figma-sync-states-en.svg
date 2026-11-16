@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 469" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="469" rx="0" fill="#fbf6e9" stroke="none"/>
+<rect x="20" y="20" width="1000" height="425" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="38" y="55" font-size="19" fill="#11567a" font-weight="700" text-anchor="start">Teacher score synchronization</text>
+<text x="38" y="79" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Filter assessment records before selecting scores to review.</text>
+<text x="41" y="106" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Period</text>
+<rect x="41" y="113" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="51" y="137.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Quarter 2</text>
+<path d="M240 130.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="282" y="106" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Grade</text>
+<rect x="282" y="113" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="292" y="137.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All grades</text>
+<path d="M481 130.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="523" y="106" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Class</text>
+<rect x="523" y="113" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="533" y="137.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All classes</text>
+<path d="M722 130.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="764" y="106" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Subject</text>
+<rect x="764" y="113" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="774" y="137.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All subjects</text>
+<path d="M963 130.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="41" y="175" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Assessment</text>
+<rect x="41" y="182" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="51" y="206.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All assessments</text>
+<path d="M240 199.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="282" y="175" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Format</text>
+<rect x="282" y="182" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="292" y="206.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All formats</text>
+<path d="M481 199.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="523" y="175" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Status</text>
+<rect x="523" y="182" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="533" y="206.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All statuses</text>
+<path d="M722 199.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="764" y="175" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Sync status</text>
+<rect x="764" y="182" width="221" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="774" y="206.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">All records</text>
+<path d="M963 199.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="41" y="253" width="956" height="42" rx="0" fill="#ffe6a5" stroke="none"/>
+<text x="52" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Select</text>
+<text x="187" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Assessment</text>
+<text x="375" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Subject</text>
+<text x="559" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Class</text>
+<text x="653" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Format</text>
+<text x="803" y="279.0" font-size="13" fill="#11567a" font-weight="700" text-anchor="start">Status</text>
+<rect x="41" y="295" width="956" height="42" rx="0" fill="#ffffff" stroke="none"/>
+<path d="M41 295L997 295" stroke="#dce2e8" fill="none"/>
+<text x="52" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">□</text>
+<text x="187" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Quiz 15</text>
+<text x="375" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Mathematics</text>
+<text x="559" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="653" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Multiple choice</text>
+<text x="803" y="321.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<rect x="41" y="337" width="956" height="42" rx="0" fill="#fcfcfd" stroke="none"/>
+<path d="M41 337L997 337" stroke="#dce2e8" fill="none"/>
+<text x="52" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">✓</text>
+<text x="187" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Quiz 15</text>
+<text x="375" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Mathematics</text>
+<text x="559" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">A1</text>
+<text x="653" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Multiple choice</text>
+<text x="803" y="363.0" font-size="13" fill="#152f49" font-weight="400" text-anchor="start"></text>
+<path d="M41 379L997 379" stroke="#dce2e8" fill="none"/>
+<rect x="799" y="300" width="163" height="32" rx="7" fill="#fff0eb" stroke="none"/>
+<text x="880.5" y="321.0" font-size="14" fill="#903c32" font-weight="700" text-anchor="middle">Finalize scores</text>
+<rect x="799" y="342" width="163" height="32" rx="7" fill="#e5f7eb" stroke="none"/>
+<text x="880.5" y="363.0" font-size="14" fill="#235a35" font-weight="700" text-anchor="middle">Scores finalized</text>
+<rect x="41" y="392" width="153" height="36" rx="7" fill="#fbb83c" stroke="none"/>
+<text x="117.5" y="415.0" font-size="14" fill="#302515" font-weight="700" text-anchor="middle">Export to Excel</text>
+</svg>

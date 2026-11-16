@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 325" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="920" height="325" rx="0" fill="#f6f2ed" stroke="none"/>
+<text x="36" y="43" font-size="24" fill="#152f49" font-weight="700" text-anchor="start">Notification component</text>
+<rect x="35" y="69" width="850" height="85" rx="15" fill="#edf8ef" stroke="#176849"/>
+<circle cx="79" cy="111" r="20" fill="#176849" stroke="none"/>
+<text x="79" y="118" font-size="23" fill="#ffffff" font-weight="700" text-anchor="middle">✓</text>
+<text x="113" y="102" font-size="14" fill="#176849" font-weight="700" text-anchor="start">Success</text>
+<text x="113" y="128" font-size="20" fill="#152f49" font-weight="700" text-anchor="start">Deleted successfully.</text>
+<path d="M811 87L811 136" stroke="#176849" fill="none"/>
+<text x="850" y="123" font-size="33" fill="#176849" font-weight="400" text-anchor="middle">×</text>
+<rect x="35" y="186" width="850" height="85" rx="15" fill="#fff0ed" stroke="#a4322a"/>
+<circle cx="79" cy="228" r="20" fill="#a4322a" stroke="none"/>
+<text x="79" y="235" font-size="23" fill="#ffffff" font-weight="700" text-anchor="middle">!</text>
+<text x="113" y="219" font-size="14" fill="#a4322a" font-weight="700" text-anchor="start">Failure</text>
+<text x="113" y="245" font-size="20" fill="#152f49" font-weight="700" text-anchor="start">Deletion failed. Please try again.</text>
+<path d="M811 204L811 253" stroke="#a4322a" fill="none"/>
+<text x="850" y="240" font-size="33" fill="#a4322a" font-weight="400" text-anchor="middle">×</text>
+</svg>

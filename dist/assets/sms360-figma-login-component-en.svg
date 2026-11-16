@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="760" height="510" rx="0" fill="#fbf6ef" stroke="none"/>
+<rect x="130" y="18" width="500" height="474" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="148" y="53" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Sign in</text>
+<text x="148" y="77" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Reusable role and credential form</text>
+<text x="157" y="119" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Role</text>
+<rect x="157" y="126" width="446" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="167" y="150.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Select a role</text>
+<path d="M581 143.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="157" y="194" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Username</text>
+<rect x="157" y="201" width="446" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="167" y="225.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Enter your username</text>
+<text x="157" y="269" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Password</text>
+<rect x="157" y="276" width="446" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="167" y="300.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Enter your password</text>
+<text x="514" y="300" font-size="13" fill="#bd4c10" font-weight="700" text-anchor="start">Show</text>
+<rect x="158" y="338" width="17" height="17" rx="3" fill="#bd4c10" stroke="none"/>
+<text x="166" y="351" font-size="13" fill="#ffffff" font-weight="400" text-anchor="middle">✓</text>
+<text x="184" y="352" font-size="14" fill="#152f49" font-weight="400" text-anchor="start">Remember me</text>
+<rect x="157" y="391" width="446" height="44" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="380.0" y="418.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Sign in</text>
+</svg>
