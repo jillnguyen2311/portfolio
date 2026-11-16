@@ -237,6 +237,7 @@ h1 em,h2 em{color:var(--violet);font-style:normal}
 .design-video{margin-block:25px}
 .design-video video{display:block;width:100%;height:auto;border-radius:12px;background:#1c132a}
 .design-video figcaption{padding:12px 14px;color:var(--body);font-size:14px}
+.design-stills .artifact-figure img{height:auto;aspect-ratio:16/9}
 @media(max-width:690px){.diagram-trace .rule-row{grid-template-columns:65px 1fr;padding:5px 0;font-size:10px}.art-caption{font-size:9px}}
 #design-evidence .gallery + h3{margin-top:26px}
 #design-evidence .gallery + .table-scroll{margin-top:24px}
