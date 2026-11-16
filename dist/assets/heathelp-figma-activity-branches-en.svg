@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 474" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="474" rx="0" fill="#f5f2f9" stroke="none"/>
+<text x="26" y="40" font-size="26" fill="#152f49" font-weight="700" text-anchor="start">Learning and quiz entry points</text>
+<text x="26" y="67" font-size="15" fill="#152f49" font-weight="400" text-anchor="start">The two actions use the same visual family and need clear destination labels.</text>
+<rect x="25" y="94" width="485" height="357" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="43" y="129" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Learn by topic</text>
+<text x="43" y="153" font-size="13" fill="#506175" font-weight="400" text-anchor="start">The entry leads to learning material.</text>
+<text x="43" y="190" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Destination</text>
+<rect x="43" y="197" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="221.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Learning content</text>
+<text x="43" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Context</text>
+<rect x="43" y="259" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Selected topic</text>
+<text x="43" y="314" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Action</text>
+<rect x="43" y="321" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="53" y="345.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Open information and examples</text>
+<rect x="43" y="396" width="220" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="153.0" y="419.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Learn more</text>
+<rect x="530" y="94" width="485" height="357" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="548" y="129" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Take a topic quiz</text>
+<text x="548" y="153" font-size="13" fill="#506175" font-weight="400" text-anchor="start">The entry leads to questions scoped to the selected topic.</text>
+<text x="548" y="190" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Destination</text>
+<rect x="548" y="197" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="558" y="221.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Quiz</text>
+<text x="548" y="252" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Context</text>
+<rect x="548" y="259" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="558" y="283.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Selected topic</text>
+<text x="548" y="314" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Action</text>
+<rect x="548" y="321" width="449" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="558" y="345.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Answer questions and see progress</text>
+<rect x="548" y="396" width="220" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="658.0" y="419.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Start quiz</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 504" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="504" rx="0" fill="#f5f2f9" stroke="none"/>
+<text x="26" y="40" font-size="26" fill="#152f49" font-weight="700" text-anchor="start">Result row and expanded resource</text>
+<text x="26" y="67" font-size="15" fill="#152f49" font-weight="400" text-anchor="start">The result component reveals details and a related resource from the same finding.</text>
+<rect x="25" y="93" width="485" height="379" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="43" y="128" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">Collapsed finding</text>
+<text x="43" y="152" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Keep the severity label visible in the result summary.</text>
+<rect x="112" y="169" width="310" height="280" rx="20" fill="#fbf9ff" stroke="#d6c7ef"/>
+<rect x="118" y="175" width="298" height="49" rx="14" fill="#5635ba" stroke="none"/>
+<text x="134" y="205" font-size="17" fill="#ffffff" font-weight="700" text-anchor="start">Your results</text>
+<rect x="126" y="241" width="282" height="100" rx="10" fill="#ffffff" stroke="#ddcff1"/>
+<rect x="136" y="252" width="135" height="23" rx="6" fill="#fae9bd" stroke="none"/>
+<text x="144" y="268" font-size="12" fill="#563a00" font-weight="700" text-anchor="start">Review recommended</text>
+<text x="136" y="295" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Illustrative scan finding</text>
+<text x="381" y="296" font-size="20" fill="#5635ba" font-weight="700" text-anchor="start">+</text>
+<text x="136" y="321" font-size="14" fill="#5635ba" font-weight="700" text-anchor="start">Open finding</text>
+<rect x="530" y="93" width="485" height="379" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="548" y="128" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">Expanded finding</text>
+<text x="548" y="152" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Reveal additional context while preserving the status.</text>
+<rect x="617" y="169" width="310" height="280" rx="20" fill="#fbf9ff" stroke="#d6c7ef"/>
+<rect x="623" y="175" width="298" height="49" rx="14" fill="#5635ba" stroke="none"/>
+<text x="639" y="205" font-size="17" fill="#ffffff" font-weight="700" text-anchor="start">Your results</text>
+<rect x="631" y="241" width="282" height="172" rx="10" fill="#ffffff" stroke="#ddcff1"/>
+<rect x="641" y="252" width="135" height="23" rx="6" fill="#fae9bd" stroke="none"/>
+<text x="649" y="268" font-size="12" fill="#563a00" font-weight="700" text-anchor="start">Review recommended</text>
+<text x="641" y="295" font-size="16" fill="#152f49" font-weight="700" text-anchor="start">Illustrative scan finding</text>
+<text x="886" y="296" font-size="20" fill="#5635ba" font-weight="700" text-anchor="start">−</text>
+<path d="M641 306L895 306" stroke="#dce2e8" fill="none"/>
+<text x="641" y="330" font-size="14" fill="#152f49" font-weight="700" text-anchor="start">Related resource</text>
+<text x="641" y="350" font-size="13" fill="#152f49" font-weight="400" text-anchor="start">Preparing for a dental appointment</text>
+<text x="641" y="387" font-size="14" fill="#5635ba" font-weight="700" text-anchor="start">Read more</text>
+</svg>

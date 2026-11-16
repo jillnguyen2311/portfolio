@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 440" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="440" rx="0" fill="#f5f2f9" stroke="none"/>
+<text x="26" y="40" font-size="26" fill="#152f49" font-weight="700" text-anchor="start">Quiz feedback and progress</text>
+<text x="26" y="67" font-size="15" fill="#152f49" font-weight="400" text-anchor="start">The feedback component communicates whether the learner should retry or continue.</text>
+<rect x="25" y="94" width="485" height="317" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="43" y="129" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Answer accepted</text>
+<text x="43" y="153" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Show the learner the next available action.</text>
+<text x="45" y="195" font-size="15" fill="#152f49" font-weight="700" text-anchor="start">Question 2 of 5</text>
+<rect x="45" y="208" width="445" height="11" rx="5" fill="#eee8eb" stroke="none"/>
+<rect x="45" y="208" width="178" height="11" rx="5" fill="#bd4c10" stroke="none"/>
+<rect x="45" y="244" width="445" height="54" rx="9" fill="#ecf8ef" stroke="none"/>
+<text x="60" y="277" font-size="16" fill="#146345" font-weight="700" text-anchor="start">Correct · Ready for the next question</text>
+<rect x="45" y="332" width="158" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="124.0" y="355.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Continue</text>
+<rect x="530" y="94" width="485" height="317" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="548" y="129" font-size="19" fill="#bd4c10" font-weight="700" text-anchor="start">Retry needed</text>
+<text x="548" y="153" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Keep the same question in context to try a different answer.</text>
+<text x="550" y="195" font-size="15" fill="#152f49" font-weight="700" text-anchor="start">Question 2 of 5</text>
+<rect x="550" y="208" width="445" height="11" rx="5" fill="#eee8eb" stroke="none"/>
+<rect x="550" y="208" width="178" height="11" rx="5" fill="#bd4c10" stroke="none"/>
+<rect x="550" y="244" width="445" height="54" rx="9" fill="#fff0ed" stroke="none"/>
+<text x="565" y="277" font-size="16" fill="#9e302a" font-weight="700" text-anchor="start">Incorrect · Choose another answer</text>
+<rect x="550" y="332" width="158" height="36" rx="7" fill="#bd4c10" stroke="none"/>
+<text x="629.0" y="355.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Try again</text>
+</svg>

@@ -102,9 +102,80 @@ def component_example(project_id):
             f'<span>{escape(label)}</span></label>'
         )
         previews.append(f'<div class="example-state" data-state="{index}">{markup}</div>')
-    return f"""<section class="component-example" aria-labelledby="component-example-title">
+    return f"""<section class="component-example" id="figma-examples" aria-labelledby="component-example-title">
   <h3 id="component-example-title">Try the Figma component states</h3>
   <p>{escape(description)} This browser example is based on the Figma design.</p>
   <fieldset><legend>{escape(title)}</legend><div class="example-options">{"".join(controls)}</div></fieldset>
   {"".join(previews)}
+</section>"""
+
+
+def design_system_lab():
+    return """
+<section class="variant-lab" id="design-system-lab" data-variant-lab aria-labelledby="variant-lab-title">
+  <h3 id="variant-lab-title">SMS360 design system lab</h3>
+  <p>Inspect the button and input properties from the Figma library. Use the controls to see how each choice affects the component in a browser.</p>
+  <div class="variant-grid">
+    <div class="variant-card">
+      <h4>Button variants</h4>
+      <p>Four types · Default and disabled · Optional icons on text buttons</p>
+      <div class="variant-controls">
+        <label>Type
+          <select id="lab-button-type">
+            <option value="solid">Solid</option><option value="outline">Outline</option>
+            <option value="close">Icon · close</option><option value="open">Icon · open</option>
+          </select>
+        </label>
+        <label>State
+          <select id="lab-button-state"><option value="default">Default</option><option value="disabled">Disabled</option></select>
+        </label>
+      </div>
+      <fieldset id="lab-button-icons">
+        <legend>Icon placement</legend>
+        <label><input type="checkbox" id="lab-leading-icon"> Leading icon</label>
+        <label><input type="checkbox" id="lab-trailing-icon"> Trailing icon</label>
+      </fieldset>
+      <div class="variant-stage">
+        <button type="button" class="variant-button" id="lab-button-preview" data-kind="solid">Continue</button>
+      </div>
+      <p id="lab-button-result" class="variant-result" aria-live="polite">The default button accepts activation.</p>
+    </div>
+    <div class="variant-card">
+      <h4>Input variants</h4>
+      <p>Large and small · Default, disabled and special states</p>
+      <div class="variant-controls">
+        <label>Size
+          <select id="lab-input-size"><option value="large">Large</option><option value="small">Small</option></select>
+        </label>
+        <label>State
+          <select id="lab-input-state">
+            <option value="default">Default</option><option value="disabled">Disabled</option>
+            <option value="special">Special · Validation</option>
+          </select>
+        </label>
+      </div>
+      <fieldset>
+        <legend>Optional input properties</legend>
+        <label><input type="checkbox" id="lab-input-header" checked> Field label</label>
+        <label><input type="checkbox" id="lab-input-icon" checked> Trailing icon</label>
+        <label><input type="checkbox" id="lab-input-message-below" checked> Feedback below field</label>
+        <label><input type="checkbox" id="lab-input-clear"> Clear action</label>
+      </fieldset>
+      <div class="variant-stage variant-input-stage">
+        <div class="variant-input-heading">
+          <label for="lab-input-preview" id="lab-input-label">Username</label>
+          <p id="lab-input-inline-error" class="variant-error" hidden>Enter a valid username.</p>
+        </div>
+        <div class="variant-input-row">
+          <span class="variant-input-shell">
+            <input id="lab-input-preview" class="variant-input" type="text" aria-label="Username" placeholder="Enter your username" data-size="large">
+            <span id="lab-input-icon-preview" class="variant-input-icon" aria-hidden="true">◉</span>
+          </span>
+          <button type="button" id="lab-input-clear-preview" class="variant-clear" hidden>Clear</button>
+        </div>
+        <p id="lab-input-error" class="variant-error" hidden>Enter a valid username.</p>
+      </div>
+      <p id="lab-input-result" class="variant-result" aria-live="polite">The default field accepts text input.</p>
+    </div>
+  </div>
 </section>"""
