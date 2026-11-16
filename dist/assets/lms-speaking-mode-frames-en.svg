@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 473" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="473" rx="0" fill="#edf4f8" stroke="none"/>
+<rect x="20" y="23" width="490" height="424" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="38" y="58" font-size="19" fill="#0c4872" font-weight="700" text-anchor="start">Create speaking practice</text>
+<text x="38" y="82" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Teacher setup</text>
+<text x="40" y="109" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Activity title</text>
+<rect x="40" y="116" width="450" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="50" y="140.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Speaking practice: a class presentation</text>
+<text x="40" y="172" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Practice type</text>
+<rect x="40" y="179" width="450" height="38" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="50" y="203.0" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Read a supplied passage</text>
+<path d="M468 196.0l4 4 4 -4" fill="none" stroke="#60748b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="40" y="238" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Passage or topic</text>
+<rect x="40" y="245" width="450" height="63" rx="6" fill="#ffffff" stroke="#dae1e7"/>
+<text x="50" y="281.5" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Add the material the student will see</text>
+<rect x="292" y="370" width="197" height="36" rx="7" fill="#0c4872" stroke="none"/>
+<text x="390.5" y="393.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Create activity</text>
+<rect x="530" y="23" width="490" height="424" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="548" y="58" font-size="19" fill="#0c4872" font-weight="700" text-anchor="start">Speaking practice</text>
+<text x="548" y="82" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Learner activity choices</text>
+<rect x="549" y="126" width="451" height="86" rx="10" fill="#e6f1fb" stroke="none"/>
+<circle cx="578" cy="168" r="13" fill="#b6d9f3" stroke="none"/>
+<text x="604" y="159" font-size="16" fill="#0c4872" font-weight="700" text-anchor="start">Read a supplied passage</text>
+<text x="604" y="184" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Open the passage and read it aloud.</text>
+<text x="977" y="175" font-size="21" fill="#0c4872" font-weight="700" text-anchor="end">›</text>
+<rect x="549" y="229" width="451" height="86" rx="10" fill="#e6f1fb" stroke="none"/>
+<circle cx="578" cy="271" r="13" fill="#b6d9f3" stroke="none"/>
+<text x="604" y="262" font-size="16" fill="#0c4872" font-weight="700" text-anchor="start">Speak freely about a topic</text>
+<text x="604" y="287" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Read the prompt and record your response.</text>
+<text x="977" y="278" font-size="21" fill="#0c4872" font-weight="700" text-anchor="end">›</text>
+<rect x="549" y="370" width="172" height="36" rx="7" fill="#ffffff" stroke="#d1dce6"/>
+<text x="635.0" y="393.0" font-size="14" fill="#0c4872" font-weight="700" text-anchor="middle">Usage guidance</text>
+</svg>

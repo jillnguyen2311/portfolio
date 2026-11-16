@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 472" font-family="Inter,Arial,sans-serif">
+<rect x="0" y="0" width="1040" height="472" rx="0" fill="#f3edf9" stroke="none"/>
+<rect x="21" y="22" width="636" height="428" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="39" y="57" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">Library results</text>
+<text x="39" y="81" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Selected filters carry forward into the search results.</text>
+<rect x="41" y="103" width="135" height="33" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="108.5" y="124.5" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">New curriculum</text>
+<rect x="186" y="103" width="135" height="33" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="253.5" y="124.5" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Grade 6</text>
+<rect x="331" y="103" width="135" height="33" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="398.5" y="124.5" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Mathematics</text>
+<rect x="40" y="159" width="185" height="246" rx="10" fill="#ffffff" stroke="#e4d9ee"/>
+<rect x="51" y="171" width="163" height="110" rx="7" fill="#f8dcc9" stroke="none"/>
+<rect x="98" y="188" width="67" height="72" rx="4" fill="#c88562" stroke="none"/>
+<path d="M110 209L150 209" stroke="#ffffff" fill="none"/>
+<path d="M110 223L144 223" stroke="#ffffff" fill="none"/>
+<text x="52" y="306" font-size="12" fill="#5635ba" font-weight="700" text-anchor="start">Textbook</text>
+<text x="52" y="333" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Grade 6 mathematics</text>
+<rect x="53" y="353" width="158" height="32" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="132.0" y="374.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">View resource</text>
+<rect x="239" y="159" width="185" height="246" rx="10" fill="#ffffff" stroke="#e4d9ee"/>
+<rect x="250" y="171" width="163" height="110" rx="7" fill="#e1d9fa" stroke="none"/>
+<rect x="297" y="188" width="67" height="72" rx="4" fill="#957acf" stroke="none"/>
+<path d="M309 209L349 209" stroke="#ffffff" fill="none"/>
+<path d="M309 223L343 223" stroke="#ffffff" fill="none"/>
+<text x="251" y="306" font-size="12" fill="#5635ba" font-weight="700" text-anchor="start">School resource</text>
+<text x="251" y="333" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Mathematics exercises</text>
+<rect x="252" y="353" width="158" height="32" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="331.0" y="374.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">View resource</text>
+<rect x="438" y="159" width="185" height="246" rx="10" fill="#ffffff" stroke="#e4d9ee"/>
+<rect x="449" y="171" width="163" height="110" rx="7" fill="#d8eafa" stroke="none"/>
+<rect x="496" y="188" width="67" height="72" rx="4" fill="#5796bd" stroke="none"/>
+<path d="M508 209L548 209" stroke="#ffffff" fill="none"/>
+<path d="M508 223L542 223" stroke="#ffffff" fill="none"/>
+<text x="450" y="306" font-size="12" fill="#5635ba" font-weight="700" text-anchor="start">Interactive resource</text>
+<text x="450" y="333" font-size="13" fill="#152f49" font-weight="700" text-anchor="start">Practice activity</text>
+<rect x="451" y="353" width="158" height="32" rx="7" fill="#f2e9fe" stroke="none"/>
+<text x="530.0" y="374.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">View resource</text>
+<rect x="678" y="22" width="341" height="428" rx="13" fill="#ffffff" stroke="#dee3ea"/>
+<text x="696" y="57" font-size="19" fill="#5635ba" font-weight="700" text-anchor="start">School-only material</text>
+<text x="696" y="81" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Account check at the resource boundary.</text>
+<circle cx="746" cy="160" r="37" fill="#eee4fc" stroke="none"/>
+<rect x="732" y="151" width="28" height="23" rx="4" fill="#5635ba" stroke="none"/>
+<path d="M737 151v-5a9 9 0 0118 0v5" fill="none" stroke="#5635ba" stroke-width="3"/>
+<text x="702" y="239" font-size="17" fill="#152f49" font-weight="700" text-anchor="start">Sign in with a school account</text>
+<text x="702" y="271" font-size="13" fill="#506175" font-weight="400" text-anchor="start">Open this resource through your school.</text>
+<rect x="702" y="315" width="293" height="36" rx="7" fill="#5635ba" stroke="none"/>
+<text x="848.5" y="338.0" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">School sign-in</text>
+<rect x="702" y="367" width="293" height="36" rx="7" fill="#ffffff" stroke="#e3d8f1"/>
+<text x="848.5" y="390.0" font-size="14" fill="#5635ba" font-weight="700" text-anchor="middle">Back to results</text>
+</svg>
