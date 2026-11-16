@@ -1,0 +1,1334 @@
+{
+  "groups": [
+    {
+      "module": "Home and Accounts",
+      "features": [
+        [
+          "SMS-01-01",
+          "School News"
+        ],
+        [
+          "SMS-01-02",
+          "Compose, Edit and Publish News"
+        ],
+        [
+          "SMS-01-03",
+          "Sign-In and Context Switching"
+        ],
+        [
+          "SMS-01-04",
+          "Profile and Password Change"
+        ]
+      ]
+    },
+    {
+      "module": "Teaching and Scheduling",
+      "features": [
+        [
+          "SMS-02-01",
+          "Subject Catalog"
+        ],
+        [
+          "SMS-02-02",
+          "Teacher Subject Eligibility"
+        ],
+        [
+          "SMS-02-03",
+          "Class Subject Allocation"
+        ],
+        [
+          "SMS-02-04",
+          "Teaching Assignments"
+        ],
+        [
+          "SMS-02-05",
+          "Import and Export Assignments"
+        ],
+        [
+          "SMS-02-06",
+          "Homeroom Teacher Assignment"
+        ],
+        [
+          "SMS-02-07",
+          "Timetable Management"
+        ],
+        [
+          "SMS-02-08",
+          "Automatic Scheduling Constraints"
+        ],
+        [
+          "SMS-02-09",
+          "Import and Copy Timetables"
+        ],
+        [
+          "SMS-02-10",
+          "Adjust and Publish Timetables"
+        ],
+        [
+          "SMS-02-11",
+          "Exam Schedule"
+        ]
+      ]
+    },
+    {
+      "module": "Electronic Communication and Grades",
+      "features": [
+        [
+          "SMS-03-01",
+          "Parent Participation in e-Communication"
+        ],
+        [
+          "SMS-03-02",
+          "LMS360 Learning Reconciliation"
+        ],
+        [
+          "SMS-03-03",
+          "Grade Entry"
+        ],
+        [
+          "SMS-03-04",
+          "Primary and Secondary Grade Forms"
+        ],
+        [
+          "SMS-03-05",
+          "Grade Entry and Visibility Settings"
+        ],
+        [
+          "SMS-03-06",
+          "Assign Grade Entry Users"
+        ],
+        [
+          "SMS-03-07",
+          "Release or Hide Student Results"
+        ],
+        [
+          "SMS-03-08",
+          "Exempt Subjects or Competencies"
+        ],
+        [
+          "SMS-03-09",
+          "Continuous Assessment"
+        ],
+        [
+          "SMS-03-10",
+          "Conduct Results"
+        ],
+        [
+          "SMS-03-11",
+          "Awards Administration"
+        ],
+        [
+          "SMS-03-12",
+          "Update Student Attendance"
+        ],
+        [
+          "SMS-03-13",
+          "Report Card Print Comments"
+        ],
+        [
+          "SMS-03-14",
+          "Post-Summer Conduct Results"
+        ]
+      ]
+    },
+    {
+      "module": "Notices and Meetings",
+      "features": [
+        [
+          "SMS-04-01",
+          "List, Compose and Send Notices"
+        ],
+        [
+          "SMS-04-02",
+          "Notice Replies, Forwarding and Metrics"
+        ],
+        [
+          "SMS-04-03",
+          "Student Leave Approval"
+        ],
+        [
+          "SMS-04-04",
+          "Teacher Leave Approval"
+        ],
+        [
+          "SMS-04-05",
+          "Meeting Management"
+        ]
+      ]
+    },
+    {
+      "module": "School Administration",
+      "features": [
+        [
+          "SMS-05-01",
+          "Account Management"
+        ],
+        [
+          "SMS-05-02",
+          "Functional Permissions"
+        ],
+        [
+          "SMS-05-03",
+          "Administrator Permissions"
+        ],
+        [
+          "SMS-05-04",
+          "Grades and Classes"
+        ],
+        [
+          "SMS-05-05",
+          "Elective Classes"
+        ],
+        [
+          "SMS-05-06",
+          "Room Directory"
+        ],
+        [
+          "SMS-05-07",
+          "Teacher Directory"
+        ],
+        [
+          "SMS-05-08",
+          "Devices"
+        ],
+        [
+          "SMS-05-09",
+          "School Closures and Holidays"
+        ],
+        [
+          "SMS-05-10",
+          "Subject Combinations"
+        ],
+        [
+          "SMS-05-11",
+          "Academic Teams"
+        ],
+        [
+          "SMS-05-12",
+          "Electronic Signatures"
+        ],
+        [
+          "SMS-05-13",
+          "Subject Departments"
+        ],
+        [
+          "SMS-05-14",
+          "Day-Boarding Configuration"
+        ]
+      ]
+    },
+    {
+      "module": "Smart Attendance",
+      "features": [
+        [
+          "SMS-06-01",
+          "Face Enrollment Settings"
+        ],
+        [
+          "SMS-06-02",
+          "Bulk Face Enrollment"
+        ],
+        [
+          "SMS-06-03",
+          "Attendance Time Settings"
+        ],
+        [
+          "SMS-06-04",
+          "Attendance Details"
+        ],
+        [
+          "SMS-06-05",
+          "Monthly Student Attendance"
+        ],
+        [
+          "SMS-06-06",
+          "Teacher Attendance Setup"
+        ],
+        [
+          "SMS-06-07",
+          "Boarding Student Attendance"
+        ],
+        [
+          "SMS-06-08",
+          "Camera Management"
+        ]
+      ]
+    },
+    {
+      "module": "Archived Records",
+      "features": [
+        [
+          "SMS-07-01",
+          "Monitoring and Assessment Register"
+        ],
+        [
+          "SMS-07-02",
+          "Register Permissions and Leadership Feedback"
+        ],
+        [
+          "SMS-07-03",
+          "School Enrollment Register"
+        ],
+        [
+          "SMS-07-04",
+          "Digital Report Cards"
+        ],
+        [
+          "SMS-07-05",
+          "Send, Recall or Review Report Card History"
+        ],
+        [
+          "SMS-07-06",
+          "Report Card Photos, Subjects and Print Forms"
+        ],
+        [
+          "SMS-07-07",
+          "Parent Communication Slip"
+        ],
+        [
+          "SMS-07-08",
+          "Class Grade Summary Sheet"
+        ],
+        [
+          "SMS-07-09",
+          "Individual Grade Sheet"
+        ],
+        [
+          "SMS-07-10",
+          "Lesson Log"
+        ],
+        [
+          "SMS-07-11",
+          "Export Lesson Logs and Reconcile Status"
+        ]
+      ]
+    },
+    {
+      "module": "Homeroom Records",
+      "features": [
+        [
+          "SMS-08-01",
+          "Homeroom Record List"
+        ],
+        [
+          "SMS-08-02",
+          "Assign Leadership Reviewers and Signers"
+        ],
+        [
+          "SMS-08-03",
+          "Homeroom Deadlines and Export Configuration"
+        ],
+        [
+          "SMS-08-04",
+          "Homeroom Sections by School Level"
+        ],
+        [
+          "SMS-08-05",
+          "Student and Subject Teacher Rosters"
+        ],
+        [
+          "SMS-08-06",
+          "Class Organization and Parent Representatives"
+        ],
+        [
+          "SMS-08-07",
+          "Class Timetable and Class Overview"
+        ],
+        [
+          "SMS-08-08",
+          "Homeroom Plans and Progress Reviews"
+        ],
+        [
+          "SMS-08-09",
+          "Student Monitoring and Merit Tracking"
+        ],
+        [
+          "SMS-08-10",
+          "Activities, Parent Contact and Notes"
+        ],
+        [
+          "SMS-08-11",
+          "School Leadership Comments and Signature"
+        ],
+        [
+          "SMS-08-12",
+          "Homeroom Student Roster"
+        ],
+        [
+          "SMS-08-13",
+          "Subject Teacher Roster"
+        ],
+        [
+          "SMS-08-14",
+          "Parent Representative Roster"
+        ],
+        [
+          "SMS-08-15",
+          "Class Officer Roster"
+        ],
+        [
+          "SMS-08-16",
+          "Student Groups"
+        ],
+        [
+          "SMS-08-17",
+          "Class Seating Chart"
+        ],
+        [
+          "SMS-08-18",
+          "Homeroom Class Timetable"
+        ],
+        [
+          "SMS-08-19",
+          "Class Profile and Baseline Assessment"
+        ],
+        [
+          "SMS-08-20",
+          "Homeroom Planning"
+        ],
+        [
+          "SMS-08-21",
+          "Midyear and Year-End Reviews"
+        ],
+        [
+          "SMS-08-22",
+          "Monitor Students Requiring Attention"
+        ],
+        [
+          "SMS-08-23",
+          "Parent Meetings and Individual Contact"
+        ],
+        [
+          "SMS-08-24",
+          "Activities, Class Funds and Additional Notes"
+        ]
+      ]
+    },
+    {
+      "module": "Behavior Management",
+      "features": [
+        [
+          "SMS-09-01",
+          "Behavior Incident Entries"
+        ],
+        [
+          "SMS-09-02",
+          "Behavior Definitions"
+        ],
+        [
+          "SMS-09-03",
+          "Behavior Points and Rankings"
+        ],
+        [
+          "SMS-09-04",
+          "Behavior Score Change History"
+        ]
+      ]
+    },
+    {
+      "module": "School Health",
+      "features": [
+        [
+          "SMS-10-01",
+          "Student Health Records"
+        ],
+        [
+          "SMS-10-02",
+          "Health Data Import and Exam Form Versions"
+        ],
+        [
+          "SMS-10-03",
+          "Student Health Insurance"
+        ],
+        [
+          "SMS-10-04",
+          "Student Health Statistics"
+        ],
+        [
+          "SMS-10-05",
+          "Health Notices"
+        ],
+        [
+          "SMS-10-06",
+          "Nutrition and Growth Monitoring"
+        ],
+        [
+          "SMS-10-07",
+          "Nutrition and Growth Notices"
+        ],
+        [
+          "SMS-10-08",
+          "Health Examination Cycles and Staff"
+        ]
+      ]
+    },
+    {
+      "module": "Fees and Balances",
+      "features": [
+        [
+          "SMS-11-01",
+          "Virtual Payment Accounts"
+        ],
+        [
+          "SMS-11-02",
+          "Fee Waivers and Discounts"
+        ],
+        [
+          "SMS-11-03",
+          "Fee Collection Cycles"
+        ],
+        [
+          "SMS-11-04",
+          "Fee Item Setup"
+        ],
+        [
+          "SMS-11-05",
+          "Outstanding Fee Balances"
+        ],
+        [
+          "SMS-11-06",
+          "Tuition Collection Statistics"
+        ],
+        [
+          "SMS-11-07",
+          "Payment Reconciliation"
+        ]
+      ]
+    },
+    {
+      "module": "Reports and Statistics",
+      "features": [
+        [
+          "SMS-12-01",
+          "Student Attendance Reports"
+        ],
+        [
+          "SMS-12-02",
+          "Grade Entry Progress"
+        ],
+        [
+          "SMS-12-03",
+          "Academic and Conduct Summary"
+        ],
+        [
+          "SMS-12-04",
+          "Teaching Outcome Reports"
+        ],
+        [
+          "SMS-12-05",
+          "Calculate Final Results"
+        ],
+        [
+          "SMS-12-06",
+          "Teacher Attendance Reports"
+        ],
+        [
+          "SMS-12-07",
+          "Submit Digital Transformation Report"
+        ],
+        [
+          "SMS-12-08",
+          "Teaching Effectiveness"
+        ],
+        [
+          "SMS-12-09",
+          "Notice Statistics"
+        ],
+        [
+          "SMS-12-10",
+          "Student, Learning and Award Statistics"
+        ]
+      ]
+    },
+    {
+      "module": "Data and Lesson Log Sync",
+      "features": [
+        [
+          "SMS-13-01",
+          "Sync Final Results"
+        ],
+        [
+          "SMS-13-02",
+          "Sync Student Height and Weight"
+        ],
+        [
+          "SMS-13-03",
+          "Sync Attendance"
+        ],
+        [
+          "SMS-13-04",
+          "Substitute Signer Management"
+        ],
+        [
+          "SMS-13-05",
+          "Teaching Plans"
+        ],
+        [
+          "SMS-13-06",
+          "Manage Substitute Lessons"
+        ],
+        [
+          "SMS-13-07",
+          "Manage Make-Up Lessons"
+        ],
+        [
+          "SMS-13-08",
+          "Lesson Log Configuration"
+        ],
+        [
+          "SMS-13-09",
+          "Synchronization Entry Point and Results"
+        ]
+      ]
+    },
+    {
+      "module": "Meals and Kitchen Operations",
+      "features": [
+        [
+          "SMS-14-01",
+          "Meal Photos for School Meals"
+        ],
+        [
+          "SMS-14-02",
+          "Meal Nutrition Assessment"
+        ],
+        [
+          "SMS-14-03",
+          "Dishes and Ingredients"
+        ],
+        [
+          "SMS-14-04",
+          "Meal Notices to Parents"
+        ],
+        [
+          "SMS-14-05",
+          "Kitchen Workflow Timeline"
+        ],
+        [
+          "SMS-14-06",
+          "Meal Photos for Kitchen Operations"
+        ],
+        [
+          "SMS-14-07",
+          "Unrecognized Kitchen Visitors"
+        ],
+        [
+          "SMS-14-08",
+          "Kitchen Visitor Alerts"
+        ],
+        [
+          "SMS-14-09",
+          "Weekly Kitchen Reconciliation"
+        ],
+        [
+          "SMS-14-10",
+          "Suppliers"
+        ],
+        [
+          "SMS-14-11",
+          "Kitchen and Health Staff Assignments"
+        ],
+        [
+          "SMS-14-12",
+          "Kitchen Employee Directory"
+        ]
+      ]
+    },
+    {
+      "module": "Support",
+      "features": [
+        [
+          "SMS-15-01",
+          "Contact Support"
+        ],
+        [
+          "SMS-15-02",
+          "User Guides"
+        ],
+        [
+          "SMS-15-03",
+          "Frequently Asked Questions"
+        ]
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "SMS-03-05",
+      "title": "Grade Entry and Visibility Settings",
+      "rule": "Validate period, time range and overlaps. Edit and visibility rights are separate.",
+      "database": [],
+      "api": [
+        {
+          "title": "Create a grade-entry window",
+          "method": "POST",
+          "status": "201",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "gradeId",
+              "string",
+              "Body · Required",
+              ""
+            ],
+            [
+              "classId",
+              "string",
+              "Body · Optional",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "termId",
+              "string",
+              "Body · Optional",
+              "Term to which the grade window or visibility applies."
+            ],
+            [
+              "periodId",
+              "string",
+              "Body · Required",
+              "Review period must belong to the academic year."
+            ],
+            [
+              "startsAt",
+              "string date-time",
+              "Body · Required",
+              ""
+            ],
+            [
+              "endsAt",
+              "string date-time",
+              "Body · Required",
+              ""
+            ],
+            [
+              "enabled",
+              "boolean",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "windowId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "gradeId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "classId",
+              "string",
+              "Response",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "periodId",
+              "string",
+              "Response",
+              "Review period must belong to the academic year."
+            ],
+            [
+              "startsAt",
+              "string date-time",
+              "Response",
+              ""
+            ],
+            [
+              "endsAt",
+              "string date-time",
+              "Response",
+              ""
+            ],
+            [
+              "status",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SMS-03-07",
+      "title": "Release or Hide Student Results",
+      "rule": "Expose released columns to the student and authorized guardian only.",
+      "database": [],
+      "api": [
+        {
+          "title": "Set class result-column visibility",
+          "method": "PUT",
+          "status": "200",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "classId",
+              "string",
+              "Path · Required",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "termId",
+              "string",
+              "Body · Required",
+              "Term to which the grade window or visibility applies."
+            ],
+            [
+              "subjectId",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "visibleColumnIds",
+              "array<string>",
+              "Body · Required",
+              ""
+            ],
+            [
+              "releaseAt",
+              "string date-time",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "If-Match",
+              "string",
+              "Header · Required",
+              "Revision precondition for an update."
+            ],
+            [
+              "id",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "classId",
+              "string",
+              "Response",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "termId",
+              "string",
+              "Response",
+              "Term to which the grade window or visibility applies."
+            ],
+            [
+              "subjectId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "visibleColumnIds",
+              "array<string>",
+              "Response",
+              ""
+            ],
+            [
+              "releaseAt",
+              "string date-time",
+              "Response",
+              ""
+            ],
+            [
+              "status",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SMS-08-01",
+      "title": "Homeroom Record List",
+      "rule": "One notebook per class and academic year, created on first access. Switching terms preserves ID.",
+      "database": [
+        {
+          "title": "Homeroom notebook",
+          "fields": [
+            [
+              "homeroom_notebook_id",
+              "INT",
+              "PK",
+              "Stable notebook identifier."
+            ],
+            [
+              "class_id",
+              "INT",
+              "FK, NOT NULL",
+              "Class associated with this notebook."
+            ],
+            [
+              "academic_year_id",
+              "INT",
+              "FK, NOT NULL",
+              "Academic year associated with this notebook. The class and year identify one notebook."
+            ],
+            [
+              "homeroom_teacher",
+              "INT",
+              "FK, NULLABLE",
+              "The assigned teacher can access the notebook for their class."
+            ],
+            [
+              "authorized_principal_sign",
+              "INT",
+              "FK, NULLABLE",
+              "Leadership reviewer authorized to sign the notebook comment."
+            ],
+            [
+              "notebook_form",
+              "ENUM",
+              "NOT NULL",
+              "The school level determines the primary or secondary form."
+            ],
+            [
+              "created_at",
+              "DATETIME",
+              "—",
+              "Creation time."
+            ],
+            [
+              "updated_at",
+              "DATETIME",
+              "—",
+              "Time of last update."
+            ],
+            [
+              "updated_by",
+              "INT",
+              "FK",
+              "User who last updated this record."
+            ]
+          ]
+        },
+        {
+          "title": "Leadership reviewer assignment",
+          "fields": [
+            [
+              "id",
+              "INT",
+              "PK, AUTO INCREMENT",
+              "Reviewer assignment identifier."
+            ],
+            [
+              "notebook_id",
+              "INT",
+              "FK",
+              "Notebook the assignment applies to."
+            ],
+            [
+              "teacher_id",
+              "Unspecified",
+              "FK",
+              "Eligible member of school leadership assigned to review."
+            ],
+            [
+              "created_at",
+              "TIMESTAMP",
+              "—",
+              "Time the reviewer was assigned."
+            ],
+            [
+              "status",
+              "BOOLEAN",
+              "DEFAULT",
+              "Active on creation. Removing the assignment deactivates the record and retains history."
+            ]
+          ]
+        }
+      ],
+      "api": [
+        {
+          "title": "Create or open the class-year notebook",
+          "method": "POST",
+          "status": "200",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "classId",
+              "string",
+              "Body · Required",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "gradeId",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "yearId",
+              "string",
+              "Body · Required",
+              "Academic year context."
+            ],
+            [
+              "termId",
+              "string",
+              "Body · Optional",
+              "Reporting term. Changing the term does not create another notebook."
+            ],
+            [
+              "Idempotency-Key",
+              "string",
+              "Header · Required",
+              "A repeat request with the same key must preserve the result."
+            ],
+            [
+              "notebookId",
+              "string",
+              "Response",
+              "Identifier of the existing or newly created notebook."
+            ],
+            [
+              "classId",
+              "string",
+              "Response",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "yearId",
+              "string",
+              "Response",
+              "Academic year context."
+            ],
+            [
+              "templateVersion",
+              "string",
+              "Response",
+              "School-level notebook template selected for this class."
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SMS-08-02",
+      "title": "Assign Leadership Reviewers and Signers",
+      "rule": "Admin assigns eligible leadership at class or grade scope and keeps reassignment history.",
+      "database": [],
+      "api": [
+        {
+          "title": "Update the reviewer for a class notebook",
+          "method": "PUT",
+          "status": "200",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "id",
+              "string",
+              "Path · Required",
+              ""
+            ],
+            [
+              "reviewerId",
+              "string",
+              "Body · Required",
+              ""
+            ],
+            [
+              "expectedRevision",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "If-Match",
+              "string",
+              "Header · Required",
+              "Revision precondition for an update."
+            ],
+            [
+              "reviewerId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "roleCode",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "classId",
+              "string",
+              "Response",
+              "Class context for the notebook or released results."
+            ],
+            [
+              "notebookId",
+              "string",
+              "Response",
+              "Identifier of the existing or newly created notebook."
+            ],
+            [
+              "registerId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "effectiveFrom",
+              "string date",
+              "Response",
+              ""
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SMS-08-11",
+      "title": "School Leadership Comments and Signature",
+      "rule": "Only assigned leadership edits the final comment. Confirm the local signing provider and artifact rules before implementation.",
+      "database": [],
+      "api": [
+        {
+          "title": "Save the leadership comment",
+          "method": "PUT",
+          "status": "200",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "id",
+              "string",
+              "Path · Required",
+              ""
+            ],
+            [
+              "comment",
+              "string",
+              "Body · Required",
+              ""
+            ],
+            [
+              "expectedRevision",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "If-Match",
+              "string",
+              "Header · Required",
+              "Revision precondition for an update."
+            ],
+            [
+              "id",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "comment",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "versionId",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "printOptions",
+              "object",
+              "Response",
+              ""
+            ],
+            [
+              "status",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SMS-08-21",
+      "title": "Midyear and Year-End Reviews",
+      "rule": "Match review period to year. Obtain academic and conduct analytics from the existing reporting source.",
+      "database": [],
+      "api": [
+        {
+          "title": "Save a midyear or year-end review",
+          "method": "PUT",
+          "status": "200",
+          "fields": [
+            [
+              "schoolId",
+              "string",
+              "Path · Required",
+              "School context for the operation."
+            ],
+            [
+              "id",
+              "string",
+              "Path · Required",
+              ""
+            ],
+            [
+              "periodId",
+              "string",
+              "Path · Required",
+              "Review period must belong to the academic year."
+            ],
+            [
+              "targets",
+              "array<object>",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "outcomes",
+              "array<object>",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "retentionCounts",
+              "object",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "comment",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "expectedRevision",
+              "string",
+              "Body · Optional",
+              ""
+            ],
+            [
+              "If-Match",
+              "string",
+              "Header · Required",
+              "Revision precondition for an update."
+            ],
+            [
+              "id",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "periodId",
+              "string",
+              "Response",
+              "Review period must belong to the academic year."
+            ],
+            [
+              "targets",
+              "array<object>",
+              "Response",
+              ""
+            ],
+            [
+              "outcomes",
+              "array<object>",
+              "Response",
+              ""
+            ],
+            [
+              "retentionCounts",
+              "object",
+              "Response",
+              ""
+            ],
+            [
+              "comment",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "status",
+              "string",
+              "Response",
+              ""
+            ],
+            [
+              "revision",
+              "string",
+              "Response",
+              ""
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
